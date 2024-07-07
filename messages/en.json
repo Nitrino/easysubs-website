@@ -1,0 +1,24 @@
+{
+    "HomePage": {
+        "h1_features": "FEATURES",
+        "h1_happy_users": "4000+ HAPPY USERS",
+        "h1_contributing": "CONTRIBUTING"
+    },
+    "HomePage_HeroSection": {
+        "h1_hero_header": "LEARN LANGUAGES<br></br>FROM VIDEOS<br></br>YOU WATCH",
+        "h2_hero_header": "Free browser extension to master<br></br>your vocabulary while watching movies and TV shows.",
+        "hero_feature_subtitles": "Customizable subtitles",
+        "hero_feature_translation": "Integrated translation",
+        "hero_feature_opensource": "Open-source and free"
+    },
+    "AboutPage": {
+        "aboutText": "This is a fully translated static website"
+    },
+    "Header": {
+        "home": "Home",
+        "about": "About"
+    },
+    "LocaleSwitcher": {
+        "locale": "{locale, select, fr {French} en {English} other {Unknown}}"
+    }
+}
