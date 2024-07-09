@@ -1,10 +1,12 @@
 import type { NextPage } from "next";
+import { useTranslations } from 'next-intl'
 
 export type FeatureSection3Type = {
   className?: string;
 };
 
 const FeatureSection3: NextPage<FeatureSection3Type> = ({ className = "" }) => {
+  const t = useTranslations('HomePage_FeatureSubtitles')
   return (
     <section
       className={`self-stretch flex flex-row items-start justify-center py-0 px-[27px] box-border max-w-full text-left text-5xl text-black font-pt-sans-narrow ${className}`}
@@ -19,14 +21,14 @@ const FeatureSection3: NextPage<FeatureSection3Type> = ({ className = "" }) => {
               src="/images/icon-feature-subtitles.svg"
             />
             <b className="relative leading-[28px] mq450:text-lgi mq450:leading-[22px]">
-              Customize subtitles
+              {t('h3_cutomize_subtitles')}
             </b>
             <div className="w-[338px] relative text-lg font-pt-sans inline-block shrink-0 max-w-[104%]">
               <p className="[margin-block-start:0] [margin-block-end:5px]">
-                Do you have .SRT or .VTT subtitle file in your native language?
+                {t('do_you_have')}
               </p>
               <p className="m-0">
-                Upload it and easily sync it with the video if needed.
+                {t('upload_subtitles')}
               </p>
             </div>
           </div>
@@ -34,7 +36,7 @@ const FeatureSection3: NextPage<FeatureSection3Type> = ({ className = "" }) => {
             className="w-[550px] relative rounded-mini max-h-full object-cover max-w-full mq975:self-stretch mq975:w-auto"
             loading="lazy"
             alt=""
-            src="/images/image-4@2x.png"
+            src="/images/screenshot-feature-subtitles@2x.png"
           />
         </div>
       </div>

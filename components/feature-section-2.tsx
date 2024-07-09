@@ -1,10 +1,12 @@
 import type { NextPage } from "next";
+import { useTranslations } from 'next-intl'
 
 export type FeatureSection2Type = {
   className?: string;
 };
 
 const FeatureSection2: NextPage<FeatureSection2Type> = ({ className = "" }) => {
+  const t = useTranslations('HomePage_FeatureWords')
   return (
     <section
       className={`self-stretch flex flex-row items-start justify-center py-0 px-[27px] box-border max-w-full text-left text-5xl text-black font-pt-sans-narrow ${className}`}
@@ -19,11 +21,11 @@ const FeatureSection2: NextPage<FeatureSection2Type> = ({ className = "" }) => {
               src="/images/icon-feature-words.svg"
             />
             <b className="relative leading-[28px] mq450:text-lgi mq450:leading-[22px]">
-              Save new words
+              {t('h3_save_words')}
             </b>
             <div className="relative text-lg font-pt-sans inline-block shrink-0 max-w-[100%]">
               <p className="[margin-block-start:0] [margin-block-end:5px]">
-                Export words to language learning services:
+                {t('export_words')}
               </p>
               <ul className="m-0 font-inherit text-inherit pl-6">
                 <li className="mb-1">Anki</li>
@@ -36,7 +38,7 @@ const FeatureSection2: NextPage<FeatureSection2Type> = ({ className = "" }) => {
             className="w-[550px] relative rounded-mini max-h-full object-cover max-w-full mq975:self-stretch mq975:w-auto"
             loading="lazy"
             alt=""
-            src="/images/image-4@2x.png"
+            src="/images/screenshot-feature-words@2x.png"
           />
         </div>
       </div>

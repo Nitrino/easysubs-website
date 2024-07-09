@@ -23,7 +23,7 @@ const LanguageSelector: React.FC<LanguageSelectorType> = ({
 
   const getLanguageUrl = (lang: string) => {
     const path = pathname.split('/').filter(segment => segment !== '');
-    
+
     // Remove the current language code from the path if it exists
     if (Object.keys(languages).includes(path[0])) {
       path.shift();
@@ -47,7 +47,7 @@ const LanguageSelector: React.FC<LanguageSelectorType> = ({
         <img
           className="h-3.5 w-3.5 relative min-h-[14px] mr-2"
           alt=""
-          src="/images/language-icon.svg"
+          src="/images/icon-world.svg"
         />
         <span className="text-sm">{languages[currentLanguage as keyof typeof languages]}</span>
         <img

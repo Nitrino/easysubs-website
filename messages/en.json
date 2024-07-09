@@ -11,8 +11,59 @@
         "hero_feature_translation": "Integrated translation",
         "hero_feature_opensource": "Open-source and free"
     },
-    "AboutPage": {
-        "aboutText": "This is a fully translated static website"
+    "SupportedServices": {
+        "compatible_with": "EasySubs is compatible with YouTube, Netflix (subscription required), Coursera, and Kinopub. More video streaming services coming soon!"
+    },
+    "HomePage_FeatureTranslation": {
+       "h3_translate_words": "Translate words and sentences",
+       "hover_to_translate": "Hover over a word to translate it.",
+       "video_paused": "Video playback will be automatically paused.",
+       "translate_phrase": "Translate the entire phrase by clicking on it.",
+       "lookup_details": "Look up details in Cambridge dictionary."
+    },
+    "HomePage_FeatureWords": {
+        "h3_save_words": "Save new words",
+        "export_words": "Export words to language learning services:"
+     },
+    "HomePage_FeatureSubtitles": {
+        "h3_cutomize_subtitles": "Customize subtitles",
+        "do_you_have": "Do you have .SRT or .VTT subtitle file in your native language?",
+        "upload_subtitles": "Upload it and easily sync it with the video if needed."
+     },
+    "HomePage_MultipleFeatures": {
+        "h2_multiple_features": "Multiple features to boost your language learning:",
+        "instant_word_pronouncation": "Instant word pronouncation",
+        "prononcation_examples": "Prononcation examples from Forvo and Youglish",
+        "lookups_in_cambridge": "Lookups in Cambridge and Urban dictionaries",
+        "upload_own_subtitles": "Upload your own subtitles",
+        "manual_subtitle_sync": "Manual subtitle sync",
+        "subtitle_progress_bar": "Subtitle progress bar",
+        "rewind__by_subtitles": "Rewind video by subtitles",
+        "autopause": "Autopause after each sentence",
+        "size_and_position": "Size and position of subtitles",
+        "os_support": "Works on Windows, Mac and Linux"
+    },
+    "HomePage_Reviews": {
+        "review1": "Thank you, this is so cool! So easy, but so damn convenient! Loving it!",
+        "review2": "Nicely customizable and a unique Subtitles progress ar feature - Works well.",
+        "review3": "Great extension! I love the translation tool. Also, great design overall and it's open source, so thumbs up for that!!",
+        "review4": "Amazing! Perfect for learning languages, and has so many features that are hard to find in other extensions!"
+    },
+    "HomePage_Footer": {
+        "logo_motto": "Learn languages from videos you watch",
+        "menu_features": "FEATURES",
+        "menu_faq": "FAQ",
+        "menu_contact": "CONTACT",
+        "privacy_policy": "Privacy Policy",
+        "copyright": "EasySubs is an open-source project by "
+     },
+    "Contributing": {
+        "contributing1": "EasySubs is an open-source project that thrives on community contributions.",
+        "contributing2": "Join us in enhancing this tool by developing new features or improving support for your native language and help make language learning through videos even better.",
+        "contributing3": "Your expertise can drive EasySubs forward, making it a more powerful and versatile tool for language learners worldwide.",
+        "get_involved": "Your expertise can drive EasySubs forward, making it a more powerful and versatile tool for language learners worldwide."
+        
+
     },
     "Header": {
         "home": "Home",

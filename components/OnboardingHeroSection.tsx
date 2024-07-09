@@ -20,7 +20,7 @@ const OnboardingHeroSection: NextPage<OnboardingHeroSectionType> = ({
             className="h-[287px] flex-1 relative rounded-2xl max-w-[550px] overflow-hidden object-cover mq700:max-w-full"
             loading="lazy"
             alt=""
-            src="/images/image-41@2x.png"
+            src="/images/screenshot-onboarding-pinning@2x.png"
           />
         </div>
   );

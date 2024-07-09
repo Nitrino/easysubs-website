@@ -37,7 +37,7 @@ const MainHeroSection: NextPage<MainHeroSectionType> = ({ className = "" }) => {
               <img
                 className="h-[34px] w-[34px] relative overflow-hidden shrink-0"
                 alt=""
-                src="/images/icons8mixwords-2.svg"
+                src="/images/icon-hero-subtitles.svg"
               />
               <div className="relative leading-[30px] inline-block min-w-[125px]">
                 {t('hero_feature_subtitles')}
@@ -47,7 +47,7 @@ const MainHeroSection: NextPage<MainHeroSectionType> = ({ className = "" }) => {
               <img
                 className="h-[34px] w-[34px] relative overflow-hidden shrink-0"
                 alt=""
-                src="/images/icons8language-1.svg"
+                src="/images/icon-hero-translation.svg"
               />
               <div className="relative leading-[30px] inline-block min-w-[121px]">
                 {t('hero_feature_translation')}
@@ -58,7 +58,7 @@ const MainHeroSection: NextPage<MainHeroSectionType> = ({ className = "" }) => {
                 className="h-10 w-10 relative overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="/images/icons8warranty-2-1.svg"
+                src="/images/icon-hero-certified.svg"
               />
               <div className="relative leading-[30px] inline-block min-w-[119px]">
                 {t('hero_feature_opensource')}

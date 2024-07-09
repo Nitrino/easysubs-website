@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { useTranslations } from 'next-intl'
 
 export type SupportedServicesType = {
   className?: string;
@@ -7,6 +8,7 @@ export type SupportedServicesType = {
 const SupportedServices: NextPage<SupportedServicesType> = ({
   className = "",
 }) => {
+  const t = useTranslations('SupportedServices')
   return (
     <div
       className={`self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-base text-black font-pt-sans ${className}`}
@@ -16,33 +18,31 @@ const SupportedServices: NextPage<SupportedServicesType> = ({
           <img
                 className="h-12 w-12 relative min-h-[48px]"
                 loading="lazy"
-                alt=""
+                alt="YouTube"
                 src="/images/logo-youtube.svg"
               />
               <img
                 className="h-12 w-12 relative min-h-[48px]"
                 loading="lazy"
-                alt=""
+                alt="Netflix"
                 src="/images/logo-netflix.svg"
               />
               <img
                 className="h-12 w-12 relative min-h-[48px]"
                 loading="lazy"
-                alt=""
+                alt="Coursera"
                 src="/images/logo-coursera.svg"
               />
               <img
                 className="h-12 w-12 relative min-h-[48px]"
                 loading="lazy"
-                alt=""
+                alt="Kinopub"
                 src="/images/logo-kinopub.svg"
               />
         </div>
         <div className="flex-1 flex flex-col items-start justify-start pt-2 px-0 pb-0 box-border min-w-[316px] max-w-full">
           <div className="self-stretch relative leading-[16px]">
-            EasySubs is compatible with YouTube, Netflix (subscription
-            required), Coursera, and Kinopub. More video streaming services
-            coming soon!
+            {t('compatible_with')}
           </div>
         </div>
       </div>

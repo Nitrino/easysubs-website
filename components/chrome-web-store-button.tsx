@@ -16,7 +16,7 @@ const ChromeWebStoreButton: NextPage<ChromeWebStoreButtonType> = ({
             className="h-[47.8px] w-[55px] relative"
             loading="lazy"
             alt=""
-            src="/images/chrome-icon.svg"
+            src="/images/chrome-button-icon.svg"
         />
         <div className="flex-1 flex flex-col items-start justify-start pt-[5.9px] px-0 pb-0">
             <div className="self-stretch h-[35.8px] flex flex-col items-start justify-start pt-0 px-0 pb-[23.8px] box-border gap-[7.8px]">
@@ -25,14 +25,14 @@ const ChromeWebStoreButton: NextPage<ChromeWebStoreButtonType> = ({
                 className="h-3 w-[104.4px] relative shrink-0"
                 loading="lazy"
                 alt=""
-                src="/images/available-in-the.svg"
+                src="/images/chrome-button-available-in-the.svg"
                 />
             </div>
             <img
                 className="self-stretch h-[16.1px] relative max-w-full overflow-hidden shrink-0"
                 loading="lazy"
                 alt=""
-                src="/images/chrome-web-store.svg"
+                src="/images/chrome-button-web-store.svg"
             />
             </div>
         </div>

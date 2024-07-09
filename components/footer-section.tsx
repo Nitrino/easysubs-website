@@ -19,7 +19,7 @@ const FooterSection: NextPage<FooterSectionType> = ({
     };
   }, [propHeight]);
 
-
+  const t = useTranslations('HomePage_Footer')
 
   return (
     <section
@@ -33,23 +33,23 @@ const FooterSection: NextPage<FooterSectionType> = ({
               <img
                 className="self-stretch h-7 relative max-w-full overflow-hidden shrink-0 cursor-pointer"
                 loading="lazy"
-                alt=""
+                alt="EasySubs"
                 src="/images/easysubs-logo.svg"
               />
             </Link>
             <div className="relative tracking-[-0.29px] leading-[13px]">
-              Learn languages from videos you watch
+              {t('logo_motto')}
             </div>
           </div>
           <div className="flex flex-row items-start justify-center gap-[30px] text-left text-9xl text-chocolate font-pt-sans-narrow mq550:flex-col mq550:items-center mq550:gap-4">
             <h3 className="m-0 relative text-inherit font-bold font-inherit inline-block min-w-[103px] mq550:text-3xl mq550:text-center">
-              FEATURES
+              {t('menu_features')}
             </h3>
             <h3 className="m-0 relative text-inherit font-bold font-inherit inline-block min-w-[41px] mq550:text-3xl mq550:text-center">
-              FAQ
+              {t('menu_faq')}
             </h3>
             <h3 className="m-0 relative text-inherit uppercase font-bold font-inherit inline-block min-w-[93px] mq550:text-3xl mq550:text-center">
-              CONTACT
+              {t('menu_contact')}
             </h3>
           </div>
         </div>
@@ -59,7 +59,7 @@ const FooterSection: NextPage<FooterSectionType> = ({
               className="w-[30px] relative object-contain"
               loading="lazy"
               alt=""
-              src="/images/icon-github@2x.png"
+              src="/images/icon-github-black@2x.png"
             />
           </a>
           <a href="https://t.me/easysubs_ext" target="_blank">
@@ -72,10 +72,10 @@ const FooterSection: NextPage<FooterSectionType> = ({
           </a>
         </div>
         <a className="[text-decoration:underline] text-deepskyblue" href="/privacy-policy">
-          Privacy Policy
+          {t('privacy_policy')}
         </a>
         <div className="self-stretch h-10 relative inline-block shrink-0">
-          <span>{`EasySubs is an open-source project by `}</span>
+          <span>{t('copyright')}</span>
           <a
             className="text-deepskyblue"
             href="https://nitrino.dev/"

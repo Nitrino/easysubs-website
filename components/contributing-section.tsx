@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { useTranslations } from 'next-intl'
 
 export type ContributingSectionType = {
   className?: string;
@@ -7,6 +8,7 @@ export type ContributingSectionType = {
 const ContributingSection: NextPage<ContributingSectionType> = ({
   className = "",
 }) => {
+  const t = useTranslations('Contributing')
   return (
     <section
       className={`self-stretch flex flex-row flex-wrap items-start justify-center py-0 px-[27px] box-border max-w-full text-left text-lg text-black font-pt-sans mq450:flex-row mq450:flex-wrap ${className}`}
@@ -21,17 +23,13 @@ const ContributingSection: NextPage<ContributingSectionType> = ({
         <div className="flex-1 flex flex-col items-center justify-start min-w-[320px] max-w-[520px] mq700:max-w-full">
           <div className="w-full relative inline-block max-w-[520px] mq700:max-w-full">
             <p className="[margin-block-start:0] [margin-block-end:10px]">
-              EasySubs is an open-source project that thrives on community
-              contributions.
+              {t('contributing1')}
             </p>
             <p className="[margin-block-start:0] [margin-block-end:10px]">
-              Join us in enhancing this tool by developing new features or
-              improving support for your native language and help make language
-              learning through videos even better.
+              {t('contributing2')}
             </p>
             <p className="m-0">
-              Your expertise can drive EasySubs forward, making it a more
-              powerful and versatile tool for language learners worldwide.
+              {t('contributing3')}
             </p>
           </div>
           <div className="bg-background-light overflow-hidden flex flex-col items-center justify-start py-8 px-0">

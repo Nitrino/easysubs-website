@@ -1,7 +1,6 @@
 'use client'
 import Link from 'next-intl/link';
 import { useTranslations } from 'next-intl'
-//import LocaleSwitcher from './LocaleSwitcher';
 import LanguageSelector from '@/components/language-selector';
 
 export default function HeaderSection() {

@@ -21,18 +21,14 @@ const FeatureSection1: NextPage<FeatureSection1Type> = ({ className = "" }) => {
               src="/images/icon-feature-translation.svg"
             />
             <b className="relative leading-[28px] mq450:text-lgi mq450:leading-[22px]">
-              Translate words and sentences
+              {t('h3_translate_words')}
             </b>
             <div className="self-stretch relative text-lg font-pt-sans mq975:text-left mq975:self-stretch mq975:w-auto mq975:flex-1 mq975:flex-col mq975:items-center mq975:justify-start mq975:max-w-[320]">
               <ul className="m-0 font-inherit text-inherit pl-6">
-                <li className="mb-1">Hover over a word to translate it.</li>
-                <li className="mb-1">
-                  Video playback will be automatically paused.
-                </li>
-                <li className="mb-1">
-                  Translate the entire phrase by clicking on it.
-                </li>
-                <li>Look up details in Cambridge dictionary.</li>
+                <li className="mb-1">{t('hover_to_translate')}</li>
+                <li className="mb-1">{t('video_paused')}</li>
+                <li className="mb-1">{t('translate_phrase')}</li>
+                <li>{t('lookup_details')}</li>
               </ul>
             </div>
           </div>
@@ -40,7 +36,7 @@ const FeatureSection1: NextPage<FeatureSection1Type> = ({ className = "" }) => {
             className="w-[550px] relative rounded-mini max-h-full object-cover max-w-full mq975:self-stretch mq975:w-auto"
             loading="lazy"
             alt=""
-            src="/images/image-4@2x.png"
+            src="/images/screenshot-feature-translation@2x.png"
           />
         </div>
       </div>
