@@ -61,15 +61,50 @@
         "contributing1": "EasySubs is an open-source project that thrives on community contributions.",
         "contributing2": "Join us in enhancing this tool by developing new features or improving support for your native language and help make language learning through videos even better.",
         "contributing3": "Your expertise can drive EasySubs forward, making it a more powerful and versatile tool for language learners worldwide.",
-        "get_involved": "Your expertise can drive EasySubs forward, making it a more powerful and versatile tool for language learners worldwide."
-        
-
+        "get_involved": "Get Involved"
     },
-    "Header": {
-        "home": "Home",
-        "about": "About"
+    "OnboardingPage": {
+        "h1_ready": "🎉 IT’S ALMOST READY!",
+        "h1_how_to_start": "HOW TO START",
+        "watch_youtube_video_button": "Watch YouTube video with EasySubs",
+        "h1_faq": "FREQUENTLY ASKED QUESTIONS"
     },
-    "LocaleSwitcher": {
-        "locale": "{locale, select, fr {French} en {English} other {Unknown}}"
+    "OnboardingPage_HeroSection": {
+        "h2_onboarding_header": "Pin the EasySubs icon<br></br>for quick access →"
+    },
+    "OnboardingPage_NumberedFeatures": {
+        "hover_to_translate": "Hover over a word to translate it.",
+        "video_paused": "Video playback will be automatically paused.",
+        "translate_phrase": "Translate the entire phrase by clicking on it." ,
+        "export_words": "Export words to language learning services:",
+        "check_faq": "For integration instructions, check out the Frequently Asked Questions below.",
+        "do_you_have": "Do you have .SRT or .VTT subtitle file in your native language?",
+        "upload_subtitles": "Upload it and easily sync it with the video if needed."
+    },
+    "PrivacyPolicyPage": {
+        "h1_privacy_policy": "Privacy Policy"
+    },
+    "FaqPage": {
+        "h1_faq": "FREQUENTLY ASKED QUESTIONS",
+        "cant_find_contact": "Can’t find the answer you’re looking for? Reach out to our <link>Telegram chat</link>."
+    },
+    "FaqSection": {
+        "topic_bug_reports": "Bug reports",
+        "cant_find_contact": "Can’t find the answer you’re looking for? Reach out to our <link>Telegram chat</link>.",
+        "q_how_to_report": "How to report a bug or suggest a new feature",
+        "a_how_to_report": "Please drop a message to our <link>Telegram chat</link>. We will do our best to support you.",
+        "topic_streaming_services": "Streaming Services",
+        "q_how_to_enable_kinopub": "How to enable EasySubs for your Kinopub custom domain",
+        "a_how_to_enable_kinopub1": "If you use a personal mirror for <b>Kinopub</b>, you need to grant the extension permission to run on that specific domain:",
+        "a_how_to_enable_kinopub2": "Open <b>Kinopub</b> using your personal link.",
+        "a_how_to_enable_kinopub3": "In the EasySubs extension menu, select <b>Enable on Kinopub</b>.",
+        "a_how_to_enable_kinopub4": "Confirm the permission in the popup window:",
+        "a_how_to_enable_kinopub5": "Reload the page, and the extension will be activated for this domain. 🎉",
+        "topic_language_learning_services": "Language Learning Services",
+        "q_how_to_enable_anki": "How to enable Anki integration",
+        "a_how_to_enable_anki1": "Click the <b>ES</b> icon on YouTube or any supported streaming service.",
+        "a_how_to_enable_anki2": "Select <b>Anki</b> from the drop-down menu of the <b>Learning service</b> option.",
+        "a_how_to_enable_anki3": "Install AnkiConnect by following the <link>instructions</link>.",
+        "a_how_to_enable_anki4": "The integration will be automatically activated after the installation. New words will be added to the <b>Easysubs</b> dictionary. If this dictionary doesn’t exist, it will be created automatically."
     }
 }

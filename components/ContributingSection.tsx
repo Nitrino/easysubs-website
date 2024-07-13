@@ -41,7 +41,7 @@ const ContributingSection: NextPage<ContributingSectionType> = ({
                   src="/images/icon-github-white@2x.png"
                 />
                 <b className="relative text-base leading-[26px] inline-block font-pt-sans text-background-light text-center min-w-[86px]">
-                  Get Involved
+                  {t('get_involved')}
                 </b>
               </button>
             </a>

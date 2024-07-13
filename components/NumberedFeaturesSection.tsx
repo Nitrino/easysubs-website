@@ -1,14 +1,17 @@
 import type { NextPage } from "next";
+import { useTranslations } from 'next-intl';
 
-export type NumberedFeatureSectionType = {
+export type NumberedFeaturesSectionType = {
   className?: string;
   positionNumber?: string;
 };
 
-const NumberedFeatureSection: NextPage<NumberedFeatureSectionType> = ({
+const NumberedFeaturesSection: NextPage<NumberedFeaturesSectionType> = ({
   className = "",
   positionNumber = "",
 }) => {
+
+  const t = useTranslations('OnboardingPage_NumberedFeatures')
 
   let content;
   let screenshotName;
@@ -17,9 +20,9 @@ const NumberedFeatureSection: NextPage<NumberedFeatureSectionType> = ({
     content = (
       <>
         <ul className="m-0 font-inherit text-inherit pl-6">
-          <li className="mb-1">Hover over a word to translate it.</li>
-          <li className="mb-1">Video playback will be automatically paused.</li>
-          <li>Translate the entire phrase by clicking on it.</li>
+          <li className="mb-1">{t('hover_to_translate')}</li>
+          <li className="mb-1">{t('video_paused')}</li>
+          <li>{t('translate_phrase')}</li>
         </ul>
       </>
     );
@@ -29,7 +32,7 @@ const NumberedFeatureSection: NextPage<NumberedFeatureSectionType> = ({
     content = (
       <>
         <p className="[margin-block-start:0] [margin-block-end:8px]">
-          Export words to your favourite language learning service:
+          {t('export_words')}
         </p>
         <ul className="m-0 font-inherit text-inherit pl-6">
             <li className="mb-1">Anki</li>
@@ -37,7 +40,7 @@ const NumberedFeatureSection: NextPage<NumberedFeatureSectionType> = ({
             <li className="mb-1">Puzzle English</li>
         </ul>
         <p className="m-0">
-          For integration instructions, check out the Frequently Asked Questions below.
+          {t('check_faq')}
         </p>
       </>
     );
@@ -47,10 +50,10 @@ const NumberedFeatureSection: NextPage<NumberedFeatureSectionType> = ({
     content = (
       <>
         <p className="[margin-block-start:0] [margin-block-end:8px]">
-          Do you have .SRT or .VTT subtitle file in your native language?
+          {t('do_you_have')}
         </p>
         <p className="m-0">
-          Upload it and easily sync it with the video if needed.
+          {t('upload_subtitles')}
         </p>
       </>
     );
@@ -89,4 +92,4 @@ const NumberedFeatureSection: NextPage<NumberedFeatureSectionType> = ({
   );
 };
 
-export default NumberedFeatureSection;
+export default NumberedFeaturesSection;

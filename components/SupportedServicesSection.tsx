@@ -5,7 +5,7 @@ export type SupportedServicesType = {
   className?: string;
 };
 
-const SupportedServices: NextPage<SupportedServicesType> = ({
+const SupportedServicesSection: NextPage<SupportedServicesType> = ({
   className = "",
 }) => {
   const t = useTranslations('SupportedServices')
@@ -50,4 +50,4 @@ const SupportedServices: NextPage<SupportedServicesType> = ({
   );
 };
 
-export default SupportedServices;
+export default SupportedServicesSection;

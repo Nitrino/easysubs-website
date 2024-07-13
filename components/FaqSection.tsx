@@ -1,62 +1,116 @@
 import React, { useState } from "react";
-import type { NextPage } from "next";
+import { useTranslations } from 'next-intl';
+import Link from "next/link";
 
-export type FaqSectionType = {
-  className?: string;
-};
+export default function FaqSection() {
 
-type FaqItem = {
-  question: string;
-  answer: React.ReactNode;
-};
+  const t = useTranslations('FaqSection')
 
-type FaqTopic = {
-  topic: string;
-  items: FaqItem[];
-};
+  type FaqItem = {
+    question: string;
+    answer: React.ReactNode;
+  };
+  
+  type FaqTopic = {
+    topic: string;
+    items: FaqItem[];
+  };
+  
+  const faqData: FaqTopic[] = [
+    {
+      topic: t('topic_bug_reports'),
+      items: [
+        {
+          question: t('q_how_to_report'),
+          answer: (
+            <>
+              <p>
+                {t.rich('a_how_to_report', {
+                  link: (chunks) => <Link href="https://t.me/easysubs_ext">{chunks}</Link>
+                })}
+              </p>
+            </>
+          ),
+        }
+      ],
+    },
+    {
+      topic: t('topic_streaming_services'),
+      items: [
+        {
+          question: t('q_how_to_enable_kinopub'),
+          answer: (
+            <>
+              <p>
+                {t.rich('a_how_to_enable_kinopub1', {
+                  b: (chunks) => <b>{chunks}</b>
+                })}
+              </p>
+  
+              <ul className="m-0 font-inherit text-inherit pl-[21px]">
+                <li>
+                  {t.rich('a_how_to_enable_kinopub2', {
+                      b: (chunks) => <b>{chunks}</b>})
+                    }
+                  </li>
+                <li>
+                  <p>
+                    {t.rich('a_how_to_enable_kinopub3', {
+                      b: (chunks) => <b>{chunks}</b>})
+                    }
+                  </p>
+                  <img src="/images/screenshot-kinopub-activation.png" width="360" />
+                </li>
+                <li>
+                  <p>{t('a_how_to_enable_kinopub4')}</p>
+                  <img src="/images/screenshot-kinopub-permissions.png" width="400" />
+                </li>
+                <li>{t('a_how_to_enable_kinopub5')}</li>
+              </ul>
+            </>
+          ),
+        }
+      ],
+    },
+    {
+      topic: t('topic_language_learning_services'),
+      items: [
+        {
+          question:  t('q_how_to_enable_anki'),
+          answer: (
+            <>
+              <ul>
+                <li>
+                  {t.rich('a_how_to_enable_anki1', {
+                    b: (chunks) => <b>{chunks}</b>})
+                  }
+                </li>
+                <li>
+                  <p>
+                    {t.rich('a_how_to_enable_anki2', {
+                      b: (chunks) => <b>{chunks}</b>})
+                    }
+                  </p>
+                  <img src="/images/screenshot-anki-activation.jpg" width="360" />
+                </li>
+                <li>
+                  {t.rich('a_how_to_enable_anki3', {
+                    link: (chunks) => <Link href="https://foosoft.net/projects/anki-connect/">{chunks}</Link>})
+                  }
+                </li>
+              </ul>
+              <p>
+                {t.rich('a_how_to_enable_anki4', {
+                  b: (chunks) => <b>{chunks}</b>})
+                }
+              </p>
+            </>
+          ),
+        }
+      ],
+    },
+  ];
 
-const faqData: FaqTopic[] = [
-  {
-    topic: "Language Learning Services",
-    items: [
-      {
-        question: "Is the extension not working with the Kinopub custom domain?",
-        answer: (
-          <>
-            <p>
-              If you are using a personal mirror for Kinobub then you need to
-              give permissions to run the extension on the specific domain. To
-              do this:
-            </p>
-            <ul className="m-0 font-inherit text-inherit pl-[21px]">
-              <li className="mb-0">Open Kinopub using a personal link</li>
-              <li>Select "Enable on Kinopub" in the extension menu</li>
-            </ul>
-          </>
-        ),
-      },
-      {
-        question: "How do I change the target language?",
-        answer: "You can change the target language in the extension settings. Click on the extension icon, go to settings, and select your desired language from the dropdown menu.",
-      },
-    ],
-  },
-  {
-    topic: "Account Management",
-    items: [
-      {
-        question: "How do I reset my password?",
-        answer: "To reset your password, go to the login page and click on the 'Forgot Password' link. Follow the instructions sent to your email.",
-      },
-      {
-        question: "Can I change my username?",
-        answer: "Currently, usernames cannot be changed. If you need to use a different username, you'll need to create a new account.",
-      },
-    ],
-  },
-];
-
-const FaqSection: NextPage<FaqSectionType> = ({ className = "" }) => {
   const [openItems, setOpenItems] = useState<Record<string, number | null>>({});
 
   const toggleFaq = (topicIndex: number, itemIndex: number) => {
@@ -68,7 +122,7 @@ const FaqSection: NextPage<FaqSectionType> = ({ className = "" }) => {
 
   return (
     <section
-      className={`w-full bg-ghostwhite flex justify-center py-[52px] px-[27px] box-border text-left text-xl text-black font-pt-sans mq450:pt-[22px] mq450:pb-[22px] mq450:box-border mq975:pt-[34px] mq975:pb-[34px] mq975:box-border ${className}`}
+      className="w-full bg-ghostwhite flex justify-center py-[52px] px-[27px] box-border text-left text-xl text-black font-pt-sans mq450:pt-[22px] mq450:pb-[22px] mq450:box-border mq975:pt-[34px] mq975:pb-[34px] mq975:box-border"
     >
       <div className="w-full max-w-[970px] shadow-[2px_2px_2px_rgba(0,_0,_0,_0.15)] rounded-xl bg-background-light box-border flex flex-col items-center justify-start py-[54px] px-5 gap-[29.5px] border-[1px] border-solid border-background-light mq450:pt-[23px] mq450:pb-[23px] mq450:box-border mq975:pt-[35px] mq975:pb-[35px] mq975:box-border">
         {faqData.map((topic, topicIndex) => (
@@ -116,5 +170,3 @@ const FaqSection: NextPage<FaqSectionType> = ({ className = "" }) => {
     </section>
   );
 };
-
-export default FaqSection;

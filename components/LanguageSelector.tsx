@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
 import { languages, defaultLanguage } from "@/appSettings";
 
 export type LanguageSelectorType = {
@@ -14,7 +13,6 @@ const LanguageSelector: React.FC<LanguageSelectorType> = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
-  const t = useTranslations('LanguageSelector');
 
   // Extract the current language from the pathname
   const currentLanguage = pathname.split('/')[1] || defaultLanguage;
@@ -23,15 +21,11 @@ const LanguageSelector: React.FC<LanguageSelectorType> = ({
 
   const getLanguageUrl = (lang: string) => {
     const path = pathname.split('/').filter(segment => segment !== '');
+    
+    // Always remove the first segment (current language code)
+    path.shift();
 
-    // Remove the current language code from the path if it exists
-    if (Object.keys(languages).includes(path[0])) {
-      path.shift();
-    }
-
-    if (lang === defaultLanguage) {
-      return `/${path.join('/')}`;
-    }
+    // Always include the language code, even for the default language
     return `/${lang}/${path.join('/')}`;
   };
 

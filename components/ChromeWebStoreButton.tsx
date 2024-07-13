@@ -1,4 +1,6 @@
 import type { NextPage } from "next";
+import { usePathname } from "next/navigation";
+import { languages, defaultLanguage } from "@/appSettings";
 
 export type ChromeWebStoreButtonType = {
   className?: string;
@@ -7,8 +9,10 @@ export type ChromeWebStoreButtonType = {
 const ChromeWebStoreButton: NextPage<ChromeWebStoreButtonType> = ({
   className = "",
 }) => {
+  const pathname = usePathname();
+  const currentLanguage = pathname.split('/')[1] || defaultLanguage;
   return (
-    <a href="https://chromewebstore.google.com/detail/easysubs/ocelmccppkcibiflhhepafdjjomimddf?utm_source=easysubsco&utm_medium=social&utm_campaign=easysubs_co">
+    <a href={`https://chromewebstore.google.com/detail/easysubs/ocelmccppkcibiflhhepafdjjomimddf?utm_source=easysubsco&utm_medium=social&utm_campaign=easysubs_co&hl=${currentLanguage}`}>
         <div
         className={`w-[300.4px] rounded-3xs box-border flex flex-row items-start justify-start py-3.5 px-[22px] gap-[24px] border-[1.5px] border-solid border-black ${className}`}
         >

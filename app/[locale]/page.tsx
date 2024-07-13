@@ -1,20 +1,20 @@
 // app/page.tsx
 'use client'
 import { useTranslations } from 'next-intl';
-import HeaderSection from "@/components/header-section";
-import MainHeroSection from "@/components/main-hero-section";
-import SupportedServices from "@/components/supported-services";
-import MultipleFeaturesSection from "@/components/multiple-features-section";
-import ChromeWebStoreButton from "@/components/chrome-web-store-button";
-import FeatureSection1 from "@/components/feature-section-1";
-import FeatureSection2 from "@/components/feature-section-2";
-import FeatureSection3 from "@/components/feature-section-3";
-import ReviewsSection from "@/components/reviews-section";
-import ContributingSection from "@/components/contributing-section";
-import FooterSection from "@/components/footer-section";
+import HeaderSection from "@/components/HeaderSection";
+import MainHeroSection from "@/components/MainHeroSection";
+import SupportedServicesSection from "@/components/SupportedServicesSection";
+import MultipleFeaturesSection from "@/components/MultipleFeaturesSection";
+import ChromeWebStoreButton from "@/components/ChromeWebStoreButton";
+import FeatureSection1 from "@/components/FeatureSection1";
+import FeatureSection2 from "@/components/FeatureSection2";
+import FeatureSection3 from "@/components/FeatureSection3";
+import ReviewsSection from "@/components/ReviewsSection";
+import ContributingSection from "@/components/ContributingSection";
+import FooterSection from "@/components/FooterSection";
 
 
-export default function Home() {
+export default function HomePage() {
   const t = useTranslations('HomePage')
 
   return (
@@ -28,7 +28,7 @@ export default function Home() {
           </h1>
         </div>
       </div>
-      <SupportedServices />
+      <SupportedServicesSection />
       <FeatureSection1 />
       <FeatureSection2 />
       <FeatureSection3 />

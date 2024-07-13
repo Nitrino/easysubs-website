@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useTranslations } from 'next-intl';
-import ChromeWebStoreButton from "./chrome-web-store-button";
+import ChromeWebStoreButton from "@/components/ChromeWebStoreButton";
 
 export type MainHeroSectionType = {
   className?: string;

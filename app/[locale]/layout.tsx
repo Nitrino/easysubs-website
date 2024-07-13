@@ -42,10 +42,10 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className='bg-gray-100'>
+      <body className='bg-gray-100 m-0'>
         <NextIntlClientProvider locale={locale} messages={messages}>
           
-          <div className='p-5'>
+          <div className='p-0'>
             {children}
           </div>
         </NextIntlClientProvider>

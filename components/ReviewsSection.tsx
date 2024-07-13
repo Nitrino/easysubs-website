@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import SingleReview from "./single-review";
+import SingleReview from "./SingleReview";
 import { useTranslations } from 'next-intl'
 
 export type ReviewsSectionType = {

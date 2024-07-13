@@ -42,15 +42,19 @@ const FooterSection: NextPage<FooterSectionType> = ({
             </div>
           </div>
           <div className="flex flex-row items-start justify-center gap-[30px] text-left text-9xl text-chocolate font-pt-sans-narrow mq550:flex-col mq550:items-center mq550:gap-4">
-            <h3 className="m-0 relative text-inherit font-bold font-inherit inline-block min-w-[103px] mq550:text-3xl mq550:text-center">
-              {t('menu_features')}
-            </h3>
+            {/* 
+            <h3 className="m-0 relative text-inherit font-bold font-inherit inline-block min-w-[103px] mq550:text-3xl mq550:text-center"> 
+             {t('menu_features')} 
+            </h3> 
+            */}
             <h3 className="m-0 relative text-inherit font-bold font-inherit inline-block min-w-[41px] mq550:text-3xl mq550:text-center">
-              {t('menu_faq')}
+              <Link href="/faq" className="[text-decoration:none] text-inherit">{t('menu_faq')}</Link>
             </h3>
+            {/* 
             <h3 className="m-0 relative text-inherit uppercase font-bold font-inherit inline-block min-w-[93px] mq550:text-3xl mq550:text-center">
-              {t('menu_contact')}
+              <Link href="/contact" className="[text-decoration:none] text-inherit">{t('menu_contact')}</Link>
             </h3>
+            */}
           </div>
         </div>
         <div className="w-[1010px] flex flex-row items-start justify-center py-0 px-10 box-border gap-[20px] max-w-full">
@@ -71,18 +75,18 @@ const FooterSection: NextPage<FooterSectionType> = ({
             />
           </a>
         </div>
-        <a className="[text-decoration:underline] text-deepskyblue" href="/privacy-policy">
+        <Link className="[text-decoration:underline] text-deepskyblue" href="/privacy-policy">
           {t('privacy_policy')}
-        </a>
+        </Link>
         <div className="self-stretch h-10 relative inline-block shrink-0">
           <span>{t('copyright')}</span>
-          <a
+          <Link
             className="text-deepskyblue"
             href="https://nitrino.dev/"
             target="_blank"
           >
             <span className="[text-decoration:underline]">Petr Stepchenko</span>
-          </a>
+          </Link>
           <span>.</span>
         </div>
       </footer>
