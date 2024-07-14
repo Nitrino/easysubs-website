@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
-import { useTranslations } from 'next-intl'
+import { useTranslations } from 'next-intl';
+import VideoPlayer from '@/components/VideoPlayer';
 
 export type FeatureSection2Type = {
   className?: string;
@@ -34,12 +35,7 @@ const FeatureSection2: NextPage<FeatureSection2Type> = ({ className = "" }) => {
               </ul>
             </div>
           </div>
-          <img
-            className="w-[550px] relative rounded-mini max-h-full object-cover max-w-full mq975:self-stretch mq975:w-auto"
-            loading="lazy"
-            alt=""
-            src="/images/screenshot-feature-words@2x.png"
-          />
+          <VideoPlayer src="/images/screencast-feature-words.mp4" width={550} height={287} />
         </div>
       </div>
     </section>

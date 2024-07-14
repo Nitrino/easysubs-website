@@ -79,28 +79,47 @@ export default function FaqSection() {
           question:  t('q_how_to_enable_anki'),
           answer: (
             <>
+              <p>
+                {t.rich('a_how_to_enable_anki1', {
+                    link: (chunks) => <Link href="https://apps.ankiweb.net/#download" target="blank">{chunks}</Link>})
+                }
+              </p>
               <ul>
                 <li>
-                  {t.rich('a_how_to_enable_anki1', {
+                  <p>
+                    {t('a_how_to_enable_anki2')}
+                  </p>
+                  <ul>
+                    <li>
+                      {t.rich('a_how_to_enable_anki3', {
+                        b: (chunks) => <b>{chunks}</b>})
+                      }
+                    </li>
+                    <li>
+                        {t.rich('a_how_to_enable_anki4', {
+                          b: (chunks) => <b>{chunks}</b>})
+                        }
+                    </li>
+                    <li>{t('a_how_to_enable_anki5')}</li>
+                  </ul>
+                </li>
+                <li>
+                  {t.rich('a_how_to_enable_anki6', {
                     b: (chunks) => <b>{chunks}</b>})
                   }
                 </li>
                 <li>
                   <p>
-                    {t.rich('a_how_to_enable_anki2', {
+                    {t.rich('a_how_to_enable_anki7', {
                       b: (chunks) => <b>{chunks}</b>})
                     }
                   </p>
                   <img src="/images/screenshot-anki-activation.jpg" width="360" />
                 </li>
-                <li>
-                  {t.rich('a_how_to_enable_anki3', {
-                    link: (chunks) => <Link href="https://foosoft.net/projects/anki-connect/">{chunks}</Link>})
-                  }
-                </li>
+                <li>{t('a_how_to_enable_anki8')}</li>
               </ul>
               <p>
-                {t.rich('a_how_to_enable_anki4', {
+                {t.rich('a_how_to_enable_anki9', {
                   b: (chunks) => <b>{chunks}</b>})
                 }
               </p>

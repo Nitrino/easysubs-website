@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import { useTranslations } from 'next-intl';
+import VideoPlayer from '@/components/VideoPlayer';
 
 export type NumberedFeaturesSectionType = {
   className?: string;
@@ -14,7 +15,7 @@ const NumberedFeaturesSection: NextPage<NumberedFeaturesSectionType> = ({
   const t = useTranslations('OnboardingPage_NumberedFeatures')
 
   let content;
-  let screenshotName;
+  let screencastName;
   switch (positionNumber) {
   case "1":
     content = (
@@ -26,7 +27,7 @@ const NumberedFeaturesSection: NextPage<NumberedFeaturesSectionType> = ({
         </ul>
       </>
     );
-    screenshotName = "/images/rectangle-24@2x.png";
+    screencastName = "/images/screencast-feature-translation.mp4";
     break;
   case "2":
     content = (
@@ -44,7 +45,7 @@ const NumberedFeaturesSection: NextPage<NumberedFeaturesSectionType> = ({
         </p>
       </>
     );
-    screenshotName = "/images/rectangle-24@2x.png";
+    screencastName = "/images/screencast-feature-words.mp4";
     break;
   case "3":
     content = (
@@ -57,11 +58,11 @@ const NumberedFeaturesSection: NextPage<NumberedFeaturesSectionType> = ({
         </p>
       </>
     );
-    screenshotName = "/images/rectangle-24@2x.png";
+    screencastName = "/images/screencast-feature-subtitles.mp4";
     break;
   default:
     content = "No content";
-    screenshotName = "/images/rectangle-24@2x.png";
+    screencastName = "/images/screencast-feature-subtitles.mp4";
 }
   return (
     <section
@@ -81,12 +82,7 @@ const NumberedFeaturesSection: NextPage<NumberedFeaturesSectionType> = ({
             {content}
           </div>
         </div>
-        <img
-          className="h-[287px] flex-1 relative rounded-2xl max-w-full overflow-hidden object-cover min-w-[335px]"
-          loading="lazy"
-          alt=""
-          src={`${screenshotName}`}
-        />
+        <VideoPlayer src={screencastName} width={550} height={287} />
       </div>
     </section>
   );

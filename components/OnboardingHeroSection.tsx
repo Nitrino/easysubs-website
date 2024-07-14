@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import { useTranslations } from 'next-intl';
+import VideoPlayer from '@/components/VideoPlayer';
 
 export type OnboardingHeroSectionType = {
   className?: string;
@@ -18,12 +19,7 @@ const OnboardingHeroSection: NextPage<OnboardingHeroSectionType> = ({
               </h2>
             </div>
           </div>
-          <img
-            className="h-[287px] flex-1 relative rounded-2xl max-w-[550px] overflow-hidden object-cover mq700:max-w-full"
-            loading="lazy"
-            alt=""
-            src="/images/screenshot-onboarding-pinning@2x.png"
-          />
+          <VideoPlayer src="/images/screencast-feature-translation.mp4" width={550} height={287} />
         </div>
   );
 };

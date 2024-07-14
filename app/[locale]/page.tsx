@@ -1,4 +1,5 @@
-// app/page.tsx
+// app/[locale]/page.tsx
+
 'use client'
 import { useTranslations } from 'next-intl';
 import HeaderSection from "@/components/HeaderSection";

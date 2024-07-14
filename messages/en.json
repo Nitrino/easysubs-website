@@ -1,4 +1,14 @@
 {
+    "metadata": {
+        "title": "EasySubs – Learn languages from videos you watch",
+        "description": "Free browser extension to master your vocabulary while watching movies and TV shows.",
+        "keywords": "learn english, learn with netflix, language learning, subtitles, improve vocabulary, language reactor",
+        "ogTitle": "EasySubs: free Chrome extension to boost your language learning",
+        "ogDescription": "Learn languages effortlessly while watching your favorite movies and TV shows with EasySubs.",
+        "ogImageAlt": "EasySubs",
+        "twitterTitle": "EasySubs – Learn languages from videos you watch",
+        "twitterDescription": "Free browser extension to master your vocabulary while watching movies and TV shows."
+    },
     "HomePage": {
         "h1_features": "FEATURES",
         "h1_happy_users": "4000+ HAPPY USERS",
@@ -102,9 +112,14 @@
         "a_how_to_enable_kinopub5": "Reload the page, and the extension will be activated for this domain. 🎉",
         "topic_language_learning_services": "Language Learning Services",
         "q_how_to_enable_anki": "How to enable Anki integration",
-        "a_how_to_enable_anki1": "Click the <b>ES</b> icon on YouTube or any supported streaming service.",
-        "a_how_to_enable_anki2": "Select <b>Anki</b> from the drop-down menu of the <b>Learning service</b> option.",
-        "a_how_to_enable_anki3": "Install AnkiConnect by following the <link>instructions</link>.",
-        "a_how_to_enable_anki4": "The integration will be automatically activated after the installation. New words will be added to the <b>Easysubs</b> dictionary. If this dictionary doesn’t exist, it will be created automatically."
+        "a_how_to_enable_anki1": "Anki is a popular open-source flashcard program that helps users memorize information efficiently. It is available on Windows, macOS, Linux, iOS, and Android. If you don’t have it yet, download from the <link>official website</link>.", 
+        "a_how_to_enable_anki2": "EasySubs integrates with Anki using the Anki-Connect add-on.",
+        "a_how_to_enable_anki3": "In Anki, open the <b>Install Add-on</b> dialog by selecting <b>Tools</b> → <b>Add-ons</b> → <b>Get Add-ons</b>.",
+        "a_how_to_enable_anki4": "Enter <b>2055492159</b> in the text box labeled Code and press OK.",
+        "a_how_to_enable_anki5": "Restart Anki when prompted to complete the installation of Anki-Connect.",
+        "a_how_to_enable_anki6": "Click the <b>ES</b> icon on YouTube or any supported streaming service.",
+        "a_how_to_enable_anki7": "Select <b>Anki</b> from the drop-down menu of the <b>Learning service</b> option.",
+        "a_how_to_enable_anki8": "Done. 🎉 Hover over a word in the subtitles and click on it to use it as a translation. The word will be added to Anki. Ensure Anki is running in the background for the integration to work.",
+        "a_how_to_enable_anki9": "New words will be added to the <b>Easysubs</b> dictionary. If this dictionary doesn’t exist, it will be created automatically."
     }
 }
