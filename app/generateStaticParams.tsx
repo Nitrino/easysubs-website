@@ -2,7 +2,7 @@
 
 export function generateStaticParams() {
   return [
-    { slug: 'onboarding-redirect' },
+    { slug: 'onboarding' },
     // Add any other static paths you need here
   ];
 }
