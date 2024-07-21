@@ -1,0 +1,129 @@
+{
+    "metadata": {
+        "title": "EasySubs – Belajar bahasa dari video yang Anda tonton",
+        "description": "Ekstensi browser gratis untuk menguasai kosakata Anda sambil menonton film dan acara TV.",
+        "keywords": "belajar bahasa inggris, belajar dengan netflix, pembelajaran bahasa, subtitle, meningkatkan kosakata, reaktor bahasa",
+        "ogTitle": "EasySubs: ekstensi Chrome gratis untuk meningkatkan pembelajaran bahasa Anda",
+        "ogDescription": "Belajar bahasa dengan mudah sambil menonton film dan acara TV favorit Anda dengan EasySubs.",
+        "ogImageAlt": "EasySubs",
+        "twitterTitle": "EasySubs – Belajar bahasa dari video yang Anda tonton",
+        "twitterDescription": "Ekstensi browser gratis untuk menguasai kosakata Anda sambil menonton film dan acara TV."
+    },
+    "HomePage": {
+        "h1_features": "FITUR",
+        "h1_happy_users": "4000+ PENGGUNA SENANG",
+        "h1_contributing": "BERKONTRIBUSI"
+    },
+    "HomePage_HeroSection": {
+        "h1_hero_header": "BELAJAR BAHASA<br></br>DARI VIDEO<br></br>YANG ANDA TONTON",
+        "h2_hero_header": "Ekstensi browser gratis untuk menguasai kosakata Anda sambil menonton film dan acara TV.",
+        "hero_feature_subtitles": "Subtitle yang dapat disesuaikan",
+        "hero_feature_translation": "Terjemahan terintegrasi",
+        "hero_feature_opensource": "Sumber terbuka dan gratis"
+    },
+    "SupportedServices": {
+        "compatible_with": "EasySubs kompatibel dengan YouTube, Netflix (langganan diperlukan), Coursera, dan Kinopub. Lebih banyak layanan streaming video akan segera hadir!"
+    },
+    "HomePage_FeatureTranslation": {
+       "h3_translate_words": "Terjemahkan kata dan kalimat",
+       "hover_to_translate": "Arahkan kursor ke kata untuk menerjemahkannya.",
+       "video_paused": "Pemutaran video akan otomatis dijeda.",
+       "translate_phrase": "Terjemahkan seluruh frasa dengan mengkliknya.",
+       "lookup_details": "Cari detail di kamus Cambridge."
+    },
+    "HomePage_FeatureWords": {
+        "h3_save_words": "Simpan kata-kata baru",
+        "export_words": "Ekspor kata-kata ke layanan pembelajaran bahasa:"
+     },
+    "HomePage_FeatureSubtitles": {
+        "h3_cutomize_subtitles": "Sesuaikan subtitle",
+        "do_you_have": "Apakah Anda memiliki file subtitle .SRT atau .VTT dalam bahasa ibu Anda?",
+        "upload_subtitles": "Unggah dan sinkronkan dengan mudah dengan video jika diperlukan."
+     },
+    "HomePage_MultipleFeatures": {
+        "h2_multiple_features": "Beragam fitur untuk meningkatkan pembelajaran bahasa Anda:",
+        "instant_word_pronouncation": "Pengucapan kata secara instan",
+        "prononcation_examples": "Contoh pengucapan dari Forvo dan Youglish",
+        "lookups_in_cambridge": "Pencarian di kamus Cambridge dan Urban",
+        "upload_own_subtitles": "Unggah subtitle Anda sendiri",
+        "manual_subtitle_sync": "Sinkronisasi subtitle manual",
+        "subtitle_progress_bar": "Bar progres subtitle",
+        "rewind__by_subtitles": "Putar ulang video berdasarkan subtitle",
+        "autopause": "Jeda otomatis setelah setiap kalimat",
+        "size_and_position": "Ukuran dan posisi subtitle",
+        "os_support": "Berfungsi di Windows, Mac, dan Linux"
+    },
+    "HomePage_Reviews": {
+        "review1": "Terima kasih, ini sangat keren! Sangat mudah, tapi sangat nyaman! Saya suka!",
+        "review2": "Dapat disesuaikan dengan baik dan fitur bar progres Subtitle yang unik - Bekerja dengan baik.",
+        "review3": "Ekstensi yang hebat! Saya suka alat terjemahannya. Juga, desain keseluruhan yang bagus dan ini sumber terbuka, jadi jempol untuk itu!!",
+        "review4": "Luar biasa! Sempurna untuk belajar bahasa, dan memiliki banyak fitur yang sulit ditemukan di ekstensi lain!"
+    },
+    "HomePage_Footer": {
+        "logo_motto": "Belajar bahasa dari video yang Anda tonton",
+        "menu_features": "FITUR",
+        "menu_faq": "FAQ",
+        "menu_contact": "KONTAK",
+        "privacy_policy": "Kebijakan Privasi",
+        "copyright": "EasySubs adalah proyek sumber terbuka oleh "
+     },
+    "Contributing": {
+        "contributing1": "EasySubs adalah proyek sumber terbuka yang berkembang berkat kontribusi komunitas.",
+        "contributing2": "Bergabunglah dengan kami dalam meningkatkan alat ini dengan mengembangkan fitur baru atau meningkatkan dukungan untuk bahasa ibu Anda dan membantu membuat pembelajaran bahasa melalui video menjadi lebih baik.",
+        "contributing3": "Keahlian Anda dapat mendorong EasySubs maju, menjadikannya alat yang lebih kuat dan serbaguna bagi pelajar bahasa di seluruh dunia.",
+        "get_involved": "Ikut Terlibat"
+    },
+    "OnboardingPage": {
+        "h1_ready": "🎉 HAMPIR SIAP!",
+        "h1_how_to_start": "CARA MEMULAI",
+        "watch_youtube_video_button": "Tonton video YouTube dengan EasySubs",
+        "h1_faq": "PERTANYAAN YANG SERING DIAJUKAN"
+    },
+    "OnboardingPage_HeroSection": {
+        "h2_onboarding_header": "Sematkan ikon EasySubs<br></br>untuk akses cepat →"
+    },
+    "OnboardingPage_NumberedFeatures": {
+        "hover_to_translate": "Arahkan kursor ke kata untuk menerjemahkannya.",
+        "video_paused": "Pemutaran video akan otomatis dijeda.",
+        "translate_phrase": "Terjemahkan seluruh frasa dengan mengkliknya." ,
+        "export_words": "Ekspor kata-kata ke layanan pembelajaran bahasa:",
+        "check_faq": "Untuk petunjuk integrasi, lihat Pertanyaan yang Sering Diajukan di bawah.",
+        "do_you_have": "Apakah Anda memiliki file subtitle .SRT atau .VTT dalam bahasa ibu Anda?",
+        "upload_subtitles": "Unggah dan sinkronkan dengan mudah dengan video jika diperlukan."
+    },
+    "PrivacyPolicyPage": {
+        "h1_privacy_policy": "Kebijakan Privasi"
+    },
+    "FaqPage": {
+        "h1_faq": "PERTANYAAN YANG SERING DIAJUKAN",
+        "cant_find_contact": "Tidak dapat menemukan jawaban yang Anda cari? Hubungi <link>obrolan Telegram</link> kami."
+    },
+    "FaqSection": {
+        "topic_bug_reports": "Laporan bug",
+        "cant_find_contact": "Tidak dapat menemukan jawaban yang Anda cari? Hubungi <link>obrolan Telegram</link> kami.",
+        "q_how_to_report": "Bagaimana cara melaporkan bug atau menyarankan fitur baru",
+        "a_how_to_report": "Silakan kirim pesan ke <link>obrolan Telegram</link> kami. Kami akan melakukan yang terbaik untuk membantu Anda.",
+        "topic_streaming_services": "Layanan Streaming",
+        "q_how_to_enable_kinopub": "Bagaimana cara mengaktifkan EasySubs untuk domain kustom Kinopub Anda",
+        "a_how_to_enable_kinopub1": "Jika Anda menggunakan cermin pribadi untuk <b>Kinopub</b>, Anda perlu memberikan izin ekstensi untuk berjalan pada domain tertentu:",
+        "a_how_to_enable_kinopub2": "Buka <b>Kinopub</b> menggunakan tautan pribadi Anda.",
+        "a_how_to_enable_kinopub3": "Di menu ekstensi EasySubs, pilih <b>Aktifkan di Kinopub</b>.",
+        "a_how_to_enable_kinopub4": "Konfirmasi izin di jendela pop-up:",
+        "a_how_to_enable_kinopub5": "Muat ulang halaman, dan ekstensi akan diaktifkan untuk domain ini. 🎉",
+        "topic_language_learning_services": "Layanan Pembelajaran Bahasa",
+        "q_how_to_enable_anki": "Bagaimana cara mengaktifkan integrasi Anki",
+        "a_how_to_enable_anki1": "Anki adalah program kartu flash sumber terbuka populer yang membantu pengguna mengingat informasi secara efisien. Tersedia di Windows, macOS, Linux, iOS, dan Android. Jika Anda belum memilikinya, unduh dari <link>situs web resmi</link>.", 
+        "a_how_to_enable_anki2": "EasySubs terintegrasi dengan Anki menggunakan add-on Anki-Connect.",
+        "a_how_to_enable_anki3": "Di Anki, buka dialog <b>Pasang Add-on</b> dengan memilih <b>Alat</b> → <b>Add-on</b> → <b>Dapatkan Add-on</b>.",
+        "a_how_to_enable_anki4": "Masukkan <b>2055492159</b> di kotak teks berlabel Kode dan tekan OK.",
+        "a_how_to_enable_anki5": "Mulai ulang Anki saat diminta untuk menyelesaikan instalasi Anki-Connect.",
+        "a_how_to_enable_anki6": "Klik ikon <b>ES</b> di YouTube atau layanan streaming yang didukung lainnya.",
+        "a_how_to_enable_anki7": "Pilih <b>Anki</b> dari menu drop-down pada opsi <b>Layanan pembelajaran</b>.",
+        "a_how_to_enable_anki8": "Selesai. 🎉 Arahkan kursor ke kata dalam subtitle dan klik untuk menggunakannya sebagai terjemahan. Kata tersebut akan ditambahkan ke Anki. Pastikan Anki berjalan di latar belakang agar integrasi berfungsi.",
+        "a_how_to_enable_anki9": "Kata-kata baru akan ditambahkan ke kamus <b>Easysubs</b>. Jika kamus ini tidak ada, akan dibuat secara otomatis."
+    },
+    "ContactPage": {
+        "h1_contact_us": "Hubungi Kami",
+        "we_love_to_hear": "Kami senang mendengar dari Anda! Baik Anda memiliki umpan balik, pertanyaan, atau saran tentang EasySubs, kami siap membantu. Wawasan Anda sangat berharga dalam membantu kami meningkatkan layanan kami."
+    }
+}

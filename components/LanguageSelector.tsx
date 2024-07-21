@@ -24,7 +24,7 @@ const LanguageSelector: React.FC<LanguageSelectorType> = ({
   };
 
   const languageEntries = Object.entries(languages);
-  const midpoint = Math.ceil(languageEntries.length / 2);
+  const columnLength = Math.ceil(languageEntries.length / 3);
 
   return (
     <div
@@ -48,37 +48,24 @@ const LanguageSelector: React.FC<LanguageSelectorType> = ({
         />
       </div>
       {isOpen && (
-        <div className="absolute top-full right-0 w-56 bg-background-light border border-solid border-gray-300 rounded-8xs z-50 flex shadow-md">
-          <div className="w-1/2 pr-1">
-            {languageEntries.slice(0, midpoint).map(([code, name]) => (
-              <Link
-                key={code}
-                href={getLanguageUrl(code)}
-                className={`block px-3 py-2 hover:bg-neutral-100 text-sm ${
-                  code === currentLanguage ? "font-bold" : ""
-                }`}
-                style={{ color: 'inherit', textDecoration: 'none' }}
-                onClick={() => setIsOpen(false)}
-              >
-                {name}
-              </Link>
-            ))}
-          </div>
-          <div className="w-1/2 pl-1">
-            {languageEntries.slice(midpoint).map(([code, name]) => (
-              <Link
-                key={code}
-                href={getLanguageUrl(code)}
-                className={`block px-3 py-2 hover:bg-neutral-100 text-sm ${
-                  code === currentLanguage ? "font-bold" : ""
-                }`}
-                style={{ color: 'inherit', textDecoration: 'none' }}
-                onClick={() => setIsOpen(false)}
-              >
-                {name}
-              </Link>
-            ))}
-          </div>
+        <div className="absolute top-full right-0 w-72 bg-background-light border border-solid border-gray-300 rounded-8xs z-50 flex shadow-md">
+          {[0, 1, 2].map((columnIndex) => (
+            <div key={columnIndex} className="w-1/3 px-1">
+              {languageEntries.slice(columnIndex * columnLength, (columnIndex + 1) * columnLength).map(([code, name]) => (
+                <Link
+                  key={code}
+                  href={getLanguageUrl(code)}
+                  className={`block px-2 py-1.5 hover:bg-neutral-100 text-xs ${
+                    code === currentLanguage ? "font-bold" : ""
+                  }`}
+                  style={{ color: 'inherit', textDecoration: 'none' }}
+                  onClick={() => setIsOpen(false)}
+                >
+                  {name}
+                </Link>
+              ))}
+            </div>
+          ))}
         </div>
       )}
     </div>

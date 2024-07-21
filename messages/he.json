@@ -1,0 +1,129 @@
+{
+    "metadata": {
+        "title": "EasySubs – למד שפות מהסרטונים שאתה צופה בהם",
+        "description": "תוסף דפדפן חינמי לשליטה באוצר המילים שלך תוך כדי צפייה בסרטים ותוכניות טלוויזיה.",
+        "keywords": "למד אנגלית, למד עם נטפליקס, לימוד שפות, כתוביות, שיפור אוצר מילים, ריאקטור שפה",
+        "ogTitle": "EasySubs: תוסף כרום חינמי לקידום לימוד השפה שלך",
+        "ogDescription": "למד שפות בקלות תוך כדי צפייה בסרטים ותוכניות הטלוויזיה האהובים עליך עם EasySubs.",
+        "ogImageAlt": "EasySubs",
+        "twitterTitle": "EasySubs – למד שפות מהסרטונים שאתה צופה בהם",
+        "twitterDescription": "תוסף דפדפן חינמי לשליטה באוצר המילים שלך תוך כדי צפייה בסרטים ותוכניות טלוויזיה."
+    },
+    "HomePage": {
+        "h1_features": "תכונות",
+        "h1_happy_users": "4000+ משתמשים מרוצים",
+        "h1_contributing": "תרומה"
+    },
+    "HomePage_HeroSection": {
+        "h1_hero_header": "למד שפות<br></br>מהסרטונים<br></br>שאתה צופה בהם",
+        "h2_hero_header": "תוסף דפדפן חינמי לשליטה<br></br>באוצר המילים שלך תוך כדי צפייה בסרטים ותוכניות טלוויזיה.",
+        "hero_feature_subtitles": "כתוביות מותאמות אישית",
+        "hero_feature_translation": "תרגום משולב",
+        "hero_feature_opensource": "קוד פתוח וחינמי"
+    },
+    "SupportedServices": {
+        "compatible_with": "EasySubs תואם ל-YouTube, Netflix (נדרש מנוי), Coursera, ו-Kinopub. שירותי הזרמת וידאו נוספים יגיעו בקרוב!"
+    },
+    "HomePage_FeatureTranslation": {
+       "h3_translate_words": "תרגם מילים ומשפטים",
+       "hover_to_translate": "עבור עם העכבר מעל מילה כדי לתרגם אותה.",
+       "video_paused": "הפעלת הווידאו תושהה אוטומטית.",
+       "translate_phrase": "תרגם את כל הביטוי על ידי לחיצה עליו.",
+       "lookup_details": "חפש פרטים במילון קיימברידג'."
+    },
+    "HomePage_FeatureWords": {
+        "h3_save_words": "שמור מילים חדשות",
+        "export_words": "ייצא מילים לשירותי לימוד שפות:"
+     },
+    "HomePage_FeatureSubtitles": {
+        "h3_cutomize_subtitles": "התאם אישית כתוביות",
+        "do_you_have": "יש לך קובץ כתוביות .SRT או .VTT בשפת האם שלך?",
+        "upload_subtitles": "העלה אותו וסנכרן אותו בקלות עם הווידאו במידת הצורך."
+     },
+    "HomePage_MultipleFeatures": {
+        "h2_multiple_features": "תכונות מרובות לקידום לימוד השפה שלך:",
+        "instant_word_pronouncation": "הגייה מיידית של מילים",
+        "prononcation_examples": "דוגמאות הגייה מ-Forvo ו-Youglish",
+        "lookups_in_cambridge": "חיפושים במילונים של קיימברידג' ואורבן",
+        "upload_own_subtitles": "העלאת כתוביות משלך",
+        "manual_subtitle_sync": "סנכרון ידני של כתוביות",
+        "subtitle_progress_bar": "סרגל התקדמות כתוביות",
+        "rewind__by_subtitles": "הרצה לאחור של וידאו לפי כתוביות",
+        "autopause": "השהיה אוטומטית אחרי כל משפט",
+        "size_and_position": "גודל ומיקום של כתוביות",
+        "os_support": "עובד על Windows, Mac ו-Linux"
+    },
+    "HomePage_Reviews": {
+        "review1": "תודה רבה, זה כל כך מגניב! כל כך קל, אבל כל כך נוח! אוהב את זה!",
+        "review2": "ניתן להתאמה אישית בצורה יפה ותכונת סרגל התקדמות הכתוביות ייחודית - עובד היטב.",
+        "review3": "תוסף נהדר! אני אוהב את כלי התרגום. בנוסף, עיצוב כללי מעולה וזה קוד פתוח, אז אגודל למעלה על זה!!",
+        "review4": "מדהים! מושלם ללימוד שפות, ויש לו כל כך הרבה תכונות שקשה למצוא בתוספים אחרים!"
+    },
+    "HomePage_Footer": {
+        "logo_motto": "למד שפות מהסרטונים שאתה צופה בהם",
+        "menu_features": "תכונות",
+        "menu_faq": "שאלות נפוצות",
+        "menu_contact": "צור קשר",
+        "privacy_policy": "מדיניות פרטיות",
+        "copyright": "EasySubs הוא פרויקט קוד פתוח על ידי "
+     },
+    "Contributing": {
+        "contributing1": "EasySubs הוא פרויקט קוד פתוח שמשגשג על תרומות הקהילה.",
+        "contributing2": "הצטרף אלינו בשיפור כלי זה על ידי פיתוח תכונות חדשות או שיפור התמיכה בשפת האם שלך ועזור לשפר את לימוד השפה דרך סרטונים.",
+        "contributing3": "המומחיות שלך יכולה לקדם את EasySubs קדימה, להפוך אותו לכלי חזק ורב-תכליתי יותר עבור לומדי שפות ברחבי העולם.",
+        "get_involved": "השתתף"
+    },
+    "OnboardingPage": {
+        "h1_ready": "🎉 זה כמעט מוכן!",
+        "h1_how_to_start": "איך להתחיל",
+        "watch_youtube_video_button": "צפה בסרטון YouTube עם EasySubs",
+        "h1_faq": "שאלות נפוצות"
+    },
+    "OnboardingPage_HeroSection": {
+        "h2_onboarding_header": "הצמד את הסמל של EasySubs<br></br>לגישה מהירה →"
+    },
+    "OnboardingPage_NumberedFeatures": {
+        "hover_to_translate": "עבור עם העכבר מעל מילה כדי לתרגם אותה.",
+        "video_paused": "הפעלת הווידאו תושהה אוטומטית.",
+        "translate_phrase": "תרגם את כל הביטוי על ידי לחיצה עליו.",
+        "export_words": "ייצא מילים לשירותי לימוד שפות:",
+        "check_faq": "לקבלת הוראות אינטגרציה, בדוק את השאלות הנפוצות למטה.",
+        "do_you_have": "יש לך קובץ כתוביות .SRT או .VTT בשפת האם שלך?",
+        "upload_subtitles": "העלה אותו וסנכרן אותו בקלות עם הווידאו במידת הצורך."
+    },
+    "PrivacyPolicyPage": {
+        "h1_privacy_policy": "מדיניות פרטיות"
+    },
+    "FaqPage": {
+        "h1_faq": "שאלות נפוצות",
+        "cant_find_contact": "לא מוצא את התשובה שאתה מחפש? פנה ל<link>צ'אט הטלגרם</link> שלנו."
+    },
+    "FaqSection": {
+        "topic_bug_reports": "דיווחי באגים",
+        "cant_find_contact": "לא מוצא את התשובה שאתה מחפש? פנה ל<link>צ'אט הטלגרם</link> שלנו.",
+        "q_how_to_report": "איך לדווח על באג או להציע תכונה חדשה",
+        "a_how_to_report": "אנא שלח הודעה ל<link>צ'אט הטלגרם</link> שלנו. נעשה כמיטב יכולתנו לתמוך בך.",
+        "topic_streaming_services": "שירותי הזרמה",
+        "q_how_to_enable_kinopub": "איך להפעיל את EasySubs עבור דומיין מותאם אישית של Kinopub",
+        "a_how_to_enable_kinopub1": "אם אתה משתמש במראה אישית עבור <b>Kinopub</b>, עליך להעניק לתוסף הרשאה לפעול בדומיין הספציפי הזה:",
+        "a_how_to_enable_kinopub2": "פתח את <b>Kinopub</b> באמצעות הקישור האישי שלך.",
+        "a_how_to_enable_kinopub3": "בתפריט התוסף של EasySubs, בחר <b>הפעל ב-Kinopub</b>.",
+        "a_how_to_enable_kinopub4": "אשר את ההרשאה בחלון הקופץ:",
+        "a_how_to_enable_kinopub5": "טען מחדש את הדף, והתוסף יופעל עבור דומיין זה. 🎉",
+        "topic_language_learning_services": "שירותי לימוד שפות",
+        "q_how_to_enable_anki": "איך להפעיל אינטגרציה עם Anki",
+        "a_how_to_enable_anki1": "Anki היא תוכנת כרטיסיות פלאש פופולרית בקוד פתוח שעוזרת למשתמשים לזכור מידע ביעילות. היא זמינה ב-Windows, macOS, Linux, iOS, ו-Android. אם אין לך אותה עדיין, הורד מה<link>אתר הרשמי</link>.",
+        "a_how_to_enable_anki2": "EasySubs משתלב עם Anki באמצעות התוסף Anki-Connect.",
+        "a_how_to_enable_anki3": "ב-Anki, פתח את תיבת הדו-שיח <b>התקן תוסף</b> על ידי בחירה ב<b>כלים</b> → <b>תוספים</b> → <b>קבל תוספים</b>.",
+        "a_how_to_enable_anki4": "הזן <b>2055492159</b> בתיבת הטקסט המסומנת קוד ולחץ על אישור.",
+        "a_how_to_enable_anki5": "הפעל מחדש את Anki כשתתבקש להשלים את ההתקנה של Anki-Connect.",
+        "a_how_to_enable_anki6": "לחץ על הסמל <b>ES</b> ב-YouTube או בכל שירות הזרמה נתמך.",
+        "a_how_to_enable_anki7": "בחר <b>Anki</b> מהתפריט הנפתח של אפשרות <b>שירות למידה</b>.",
+        "a_how_to_enable_anki8": "בוצע. 🎉 עבור עם העכבר מעל מילה בכתוביות ולחץ עליה כדי להשתמש בה כתרגום. המילה תתווסף ל-Anki. ודא ש-Anki פועל ברקע כדי שהאינטגרציה תעבוד.",
+        "a_how_to_enable_anki9": "מילים חדשות יתווספו למילון <b>Easysubs</b>. אם מילון זה אינו קיים, הוא ייווצר אוטומטית."
+    },
+    "ContactPage": {
+        "h1_contact_us": "צור קשר",
+        "we_love_to_hear": "נשמח לשמוע ממך! בין אם יש לך משוב, שאלות או הצעות לגבי EasySubs, אנחנו כאן לעזור. התובנות שלך הן בעלות ערך רב בעזרה לשפר את השירות שלנו."
+    }
+}
