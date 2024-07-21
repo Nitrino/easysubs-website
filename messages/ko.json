@@ -1,0 +1,129 @@
+{
+    "metadata": {
+        "title": "EasySubs – 시청하는 비디오로 언어를 배우세요",
+        "description": "영화와 TV 프로그램을 시청하면서 어휘를 마스터할 수 있는 무료 브라우저 확장 프로그램입니다.",
+        "keywords": "영어 학습, 넷플릭스로 학습, 언어 학습, 자막, 어휘 향상, 언어 리액터",
+        "ogTitle": "EasySubs: 언어 학습을 강화하는 무료 크롬 확장 프로그램",
+        "ogDescription": "EasySubs와 함께 좋아하는 영화와 TV 프로그램을 시청하면서 쉽게 언어를 배우세요.",
+        "ogImageAlt": "EasySubs",
+        "twitterTitle": "EasySubs – 시청하는 비디오로 언어를 배우세요",
+        "twitterDescription": "영화와 TV 프로그램을 시청하면서 어휘를 마스터할 수 있는 무료 브라우저 확장 프로그램입니다."
+    },
+    "HomePage": {
+        "h1_features": "기능",
+        "h1_happy_users": "4000명 이상의 만족한 사용자",
+        "h1_contributing": "기여하기"
+    },
+    "HomePage_HeroSection": {
+        "h1_hero_header": "시청하는 비디오로<br></br>언어를<br></br>배우세요",
+        "h2_hero_header": "영화와 TV 프로그램을 시청하면서<br></br>어휘를 마스터할 수 있는 무료 브라우저 확장 프로그램입니다.",
+        "hero_feature_subtitles": "맞춤형 자막",
+        "hero_feature_translation": "통합 번역",
+        "hero_feature_opensource": "오픈 소스 및 무료"
+    },
+    "SupportedServices": {
+        "compatible_with": "EasySubs는 YouTube, Netflix(구독 필요), Coursera, Kinopub와 호환됩니다. 더 많은 비디오 스트리밍 서비스가 곧 추가될 예정입니다!"
+    },
+    "HomePage_FeatureTranslation": {
+       "h3_translate_words": "단어와 문장 번역",
+       "hover_to_translate": "단어 위에 마우스를 올리면 번역됩니다.",
+       "video_paused": "비디오 재생이 자동으로 일시 정지됩니다.",
+       "translate_phrase": "전체 문구를 번역하려면 클릭하세요.",
+       "lookup_details": "Cambridge 사전에서 자세한 내용을 찾아보세요."
+    },
+    "HomePage_FeatureWords": {
+        "h3_save_words": "새로운 단어 저장",
+        "export_words": "언어 학습 서비스로 단어 내보내기:"
+     },
+    "HomePage_FeatureSubtitles": {
+        "h3_cutomize_subtitles": "자막 맞춤 설정",
+        "do_you_have": "모국어로 된 .SRT 또는 .VTT 자막 파일이 있으신가요?",
+        "upload_subtitles": "업로드하고 필요한 경우 비디오와 쉽게 동기화하세요."
+     },
+    "HomePage_MultipleFeatures": {
+        "h2_multiple_features": "언어 학습을 강화하는 다양한 기능:",
+        "instant_word_pronouncation": "즉각적인 단어 발음",
+        "prononcation_examples": "Forvo와 Youglish의 발음 예시",
+        "lookups_in_cambridge": "Cambridge와 Urban 사전에서 검색",
+        "upload_own_subtitles": "자신의 자막 업로드",
+        "manual_subtitle_sync": "수동 자막 동기화",
+        "subtitle_progress_bar": "자막 진행 바",
+        "rewind__by_subtitles": "자막으로 비디오 되감기",
+        "autopause": "각 문장 후 자동 일시 정지",
+        "size_and_position": "자막의 크기와 위치",
+        "os_support": "Windows, Mac, Linux에서 작동"
+    },
+    "HomePage_Reviews": {
+        "review1": "감사합니다, 정말 멋집니다! 너무 쉽지만 정말 편리합니다! 좋아요!",
+        "review2": "잘 맞춤화할 수 있고 독특한 자막 진행 바 기능이 있습니다 - 잘 작동합니다.",
+        "review3": "훌륭한 확장 프로그램입니다! 번역 도구가 마음에 듭니다. 또한, 전반적으로 디자인이 훌륭하고 오픈 소스라서 엄지 척입니다!!",
+        "review4": "놀랍습니다! 언어 학습에 완벽하고, 다른 확장 프로그램에서 찾기 어려운 많은 기능이 있습니다!"
+    },
+    "HomePage_Footer": {
+        "logo_motto": "시청하는 비디오로 언어를 배우세요",
+        "menu_features": "기능",
+        "menu_faq": "FAQ",
+        "menu_contact": "연락처",
+        "privacy_policy": "개인정보 처리방침",
+        "copyright": "EasySubs는 다음의 오픈 소스 프로젝트입니다: "
+     },
+    "Contributing": {
+        "contributing1": "EasySubs는 커뮤니티 기여로 번창하는 오픈 소스 프로젝트입니다.",
+        "contributing2": "새로운 기능을 개발하거나 모국어 지원을 개선하여 비디오를 통한 언어 학습을 더욱 향상시키는 데 동참해 주세요.",
+        "contributing3": "귀하의 전문 지식으로 EasySubs를 발전시켜 전 세계 언어 학습자들을 위한 더 강력하고 다재다능한 도구로 만들 수 있습니다.",
+        "get_involved": "참여하기"
+    },
+    "OnboardingPage": {
+        "h1_ready": "🎉 거의 준비되었습니다!",
+        "h1_how_to_start": "시작하는 방법",
+        "watch_youtube_video_button": "EasySubs로 YouTube 비디오 시청하기",
+        "h1_faq": "자주 묻는 질문"
+    },
+    "OnboardingPage_HeroSection": {
+        "h2_onboarding_header": "빠른 접근을 위해<br></br>EasySubs 아이콘을 고정하세요 →"
+    },
+    "OnboardingPage_NumberedFeatures": {
+        "hover_to_translate": "단어 위에 마우스를 올리면 번역됩니다.",
+        "video_paused": "비디오 재생이 자동으로 일시 정지됩니다.",
+        "translate_phrase": "전체 문구를 번역하려면 클릭하세요.",
+        "export_words": "언어 학습 서비스로 단어 내보내기:",
+        "check_faq": "통합 지침은 아래의 자주 묻는 질문을 확인하세요.",
+        "do_you_have": "모국어로 된 .SRT 또는 .VTT 자막 파일이 있으신가요?",
+        "upload_subtitles": "업로드하고 필요한 경우 비디오와 쉽게 동기화하세요."
+    },
+    "PrivacyPolicyPage": {
+        "h1_privacy_policy": "개인정보 처리방침"
+    },
+    "FaqPage": {
+        "h1_faq": "자주 묻는 질문",
+        "cant_find_contact": "찾는 답변이 없으신가요? 우리의 <link>텔레그램 채팅</link>으로 연락해 주세요."
+    },
+    "FaqSection": {
+        "topic_bug_reports": "버그 보고",
+        "cant_find_contact": "찾는 답변이 없으신가요? 우리의 <link>텔레그램 채팅</link>으로 연락해 주세요.",
+        "q_how_to_report": "버그를 보고하거나 새로운 기능을 제안하는 방법",
+        "a_how_to_report": "우리의 <link>텔레그램 채팅</link>으로 메시지를 보내주세요. 최선을 다해 지원해 드리겠습니다.",
+        "topic_streaming_services": "스트리밍 서비스",
+        "q_how_to_enable_kinopub": "Kinopub 사용자 정의 도메인에서 EasySubs를 활성화하는 방법",
+        "a_how_to_enable_kinopub1": "<b>Kinopub</b>에 대한 개인 미러를 사용하는 경우, 해당 특정 도메인에서 확장 프로그램을 실행할 수 있는 권한을 부여해야 합니다:",
+        "a_how_to_enable_kinopub2": "개인 링크를 사용하여 <b>Kinopub</b>를 엽니다.",
+        "a_how_to_enable_kinopub3": "EasySubs 확장 프로그램 메뉴에서 <b>Kinopub에서 활성화</b>를 선택합니다.",
+        "a_how_to_enable_kinopub4": "팝업 창에서 권한을 확인합니다:",
+        "a_how_to_enable_kinopub5": "페이지를 새로고침하면 이 도메인에 대해 확장 프로그램이 활성화됩니다. 🎉",
+        "topic_language_learning_services": "언어 학습 서비스",
+        "q_how_to_enable_anki": "Anki 통합을 활성화하는 방법",
+        "a_how_to_enable_anki1": "Anki는 사용자가 정보를 효율적으로 암기할 수 있도록 돕는 인기 있는 오픈 소스 플래시카드 프로그램입니다. Windows, macOS, Linux, iOS, Android에서 사용할 수 있습니다. 아직 없다면 <link>공식 웹사이트</link>에서 다운로드하세요.",
+        "a_how_to_enable_anki2": "EasySubs는 Anki-Connect 애드온을 사용하여 Anki와 통합됩니다.",
+        "a_how_to_enable_anki3": "Anki에서 <b>도구</b> → <b>애드온</b> → <b>애드온 받기</b>를 선택하여 <b>애드온 설치</b> 대화 상자를 엽니다.",
+        "a_how_to_enable_anki4": "코드라고 표시된 텍스트 상자에 <b>2055492159</b>를 입력하고 확인을 누릅니다.",
+        "a_how_to_enable_anki5": "메시지가 표시되면 Anki를 다시 시작하여 Anki-Connect 설치를 완료합니다.",
+        "a_how_to_enable_anki6": "YouTube 또는 지원되는 스트리밍 서비스에서 <b>ES</b> 아이콘을 클릭합니다.",
+        "a_how_to_enable_anki7": "<b>학습 서비스</b> 옵션의 드롭다운 메뉴에서 <b>Anki</b>를 선택합니다.",
+        "a_how_to_enable_anki8": "완료되었습니다. 🎉 자막의 단어 위에 마우스를 올리고 클릭하여 번역으로 사용하세요. 단어가 Anki에 추가됩니다. 통합이 작동하려면 Anki가 백그라운드에서 실행 중인지 확인하세요.",
+        "a_how_to_enable_anki9": "새 단어는 <b>Easysubs</b> 사전에 추가됩니다. 이 사전이 없으면 자동으로 생성됩니다."
+    },
+    "ContactPage": {
+        "h1_contact_us": "연락하기",
+        "we_love_to_hear": "여러분의 의견을 듣고 싶습니다! EasySubs에 대한 피드백, 질문 또는 제안이 있으시면 언제든 도와드리겠습니다. 여러분의 통찰력은 우리 서비스를 개선하는 데 매우 귀중합니다."
+    }
+}

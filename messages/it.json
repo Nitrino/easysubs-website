@@ -1,0 +1,129 @@
+{
+    "metadata": {
+        "title": "EasySubs – Impari le lingue dai video che guarda",
+        "description": "Estensione gratuita per browser per padroneggiare il vocabolario mentre guarda film e serie TV.",
+        "keywords": "imparare l'inglese, imparare con Netflix, apprendimento delle lingue, sottotitoli, migliorare il vocabolario, language reactor",
+        "ogTitle": "EasySubs: estensione gratuita per Chrome per potenziare il Suo apprendimento linguistico",
+        "ogDescription": "Impari le lingue senza sforzo mentre guarda i Suoi film e serie TV preferiti con EasySubs.",
+        "ogImageAlt": "EasySubs",
+        "twitterTitle": "EasySubs – Impari le lingue dai video che guarda",
+        "twitterDescription": "Estensione gratuita per browser per padroneggiare il Suo vocabolario mentre guarda film e serie TV."
+    },
+    "HomePage": {
+        "h1_features": "CARATTERISTICHE",
+        "h1_happy_users": "PIÙ DI 4000 UTENTI SODDISFATTI",
+        "h1_contributing": "CONTRIBUIRE"
+    },
+    "HomePage_HeroSection": {
+        "h1_hero_header": "IMPARI LE LINGUE DAI VIDEO CHE GUARDA",
+        "h2_hero_header": "Estensione gratuita per browser per padroneggiare il Suo vocabolario mentre guarda film e serie TV.",
+        "hero_feature_subtitles": "Sottotitoli personalizzabili",
+        "hero_feature_translation": "Traduzione integrata",
+        "hero_feature_opensource": "Open-source e gratuito"
+    },
+    "SupportedServices": {
+        "compatible_with": "EasySubs è compatibile con YouTube, Netflix (abbonamento richiesto), Coursera e Kinopub. Presto saranno supportati altri servizi di streaming video!"
+    },
+    "HomePage_FeatureTranslation": {
+       "h3_translate_words": "Traduca parole e frasi",
+       "hover_to_translate": "Passi il mouse su una parola per tradurla.",
+       "video_paused": "La riproduzione del video verrà automaticamente messa in pausa.",
+       "translate_phrase": "Traduca l'intera frase cliccandoci sopra.",
+       "lookup_details": "Cerchi i dettagli nel dizionario Cambridge."
+    },
+    "HomePage_FeatureWords": {
+        "h3_save_words": "Salvi nuove parole",
+        "export_words": "Esporti le parole nei servizi di apprendimento linguistico:"
+    },
+    "HomePage_FeatureSubtitles": {
+        "h3_cutomize_subtitles": "Personalizzi i sottotitoli",
+        "do_you_have": "Ha un file di sottotitoli .SRT o .VTT nella Sua lingua madre?",
+        "upload_subtitles": "Lo carichi e lo sincronizzi facilmente con il video se necessario."
+    },
+    "HomePage_MultipleFeatures": {
+        "h2_multiple_features": "Molteplici funzionalità per potenziare il Suo apprendimento linguistico:",
+        "instant_word_pronouncation": "Pronuncia istantanea delle parole",
+        "prononcation_examples": "Esempi di pronuncia da Forvo e Youglish",
+        "lookups_in_cambridge": "Ricerche nei dizionari Cambridge e Urban",
+        "upload_own_subtitles": "Carichi i Suoi sottotitoli",
+        "manual_subtitle_sync": "Sincronizzazione manuale dei sottotitoli",
+        "subtitle_progress_bar": "Barra di avanzamento dei sottotitoli",
+        "rewind__by_subtitles": "Riavvolga il video per sottotitoli",
+        "autopause": "Pausa automatica dopo ogni frase",
+        "size_and_position": "Dimensione e posizione dei sottotitoli",
+        "os_support": "Funziona su Windows, Mac e Linux"
+    },
+    "HomePage_Reviews": {
+        "review1": "Grazie, questo è fantastico! Così semplice, ma così maledettamente comodo! Lo adoro!",
+        "review2": "Facilmente personalizzabile e con una funzione unica di barra di avanzamento dei sottotitoli - Funziona bene.",
+        "review3": "Ottima estensione! Adoro lo strumento di traduzione. Inoltre, ottimo design nel complesso ed è open source, quindi pollice in su per questo!!",
+        "review4": "Fantastico! Perfetto per imparare le lingue, e ha così tante funzioni che è difficile trovare in altre estensioni!"
+    },
+    "HomePage_Footer": {
+        "logo_motto": "Impari le lingue dai video che guarda",
+        "menu_features": "CARATTERISTICHE",
+        "menu_faq": "FAQ",
+        "menu_contact": "CONTATTO",
+        "privacy_policy": "Politica sulla Privacy",
+        "copyright": "EasySubs è un progetto open-source di "
+    },
+    "Contributing": {
+        "contributing1": "EasySubs è un progetto open-source che prospera grazie ai contributi della comunità.",
+        "contributing2": "Si unisca a noi nel migliorare questo strumento sviluppando nuove funzionalità o migliorando il supporto per la Sua lingua madre e ci aiuti a rendere l'apprendimento delle lingue attraverso i video ancora migliore.",
+        "contributing3": "La Sua competenza può far progredire EasySubs, rendendolo uno strumento più potente e versatile per gli studenti di lingue di tutto il mondo.",
+        "get_involved": "Si Coinvolga"
+    },
+    "OnboardingPage": {
+        "h1_ready": "🎉 È QUASI PRONTO!",
+        "h1_how_to_start": "COME INIZIARE",
+        "watch_youtube_video_button": "Guardi un video di YouTube con EasySubs",
+        "h1_faq": "DOMANDE FREQUENTI"
+    },
+    "OnboardingPage_HeroSection": {
+        "h2_onboarding_header": "Fissi l'icona di EasySubs<br></br>per un accesso rapido →"
+    },
+    "OnboardingPage_NumberedFeatures": {
+        "hover_to_translate": "Passi il mouse su una parola per tradurla.",
+        "video_paused": "La riproduzione del video verrà automaticamente messa in pausa.",
+        "translate_phrase": "Traduca l'intera frase cliccandoci sopra.",
+        "export_words": "Esporti le parole nei servizi di apprendimento linguistico:",
+        "check_faq": "Per le istruzioni di integrazione, consulti le Domande Frequenti qui sotto.",
+        "do_you_have": "Ha un file di sottotitoli .SRT o .VTT nella Sua lingua madre?",
+        "upload_subtitles": "Lo carichi e lo sincronizzi facilmente con il video se necessario."
+    },
+    "PrivacyPolicyPage": {
+        "h1_privacy_policy": "Politica sulla Privacy"
+    },
+    "FaqPage": {
+        "h1_faq": "DOMANDE FREQUENTI",
+        "cant_find_contact": "Non trova la risposta che cerca? Contatti la nostra <link>chat Telegram</link>."
+    },
+    "FaqSection": {
+        "topic_bug_reports": "Segnalazioni di bug",
+        "cant_find_contact": "Non trova la risposta che cerca? Contatti la nostra <link>chat Telegram</link>.",
+        "q_how_to_report": "Come segnalare un bug o suggerire una nuova funzionalità",
+        "a_how_to_report": "La preghiamo di lasciare un messaggio nella nostra <link>chat Telegram</link>. Faremo del nostro meglio per supportarLa.",
+        "topic_streaming_services": "Servizi di Streaming",
+        "q_how_to_enable_kinopub": "Come abilitare EasySubs per il Suo dominio personalizzato Kinopub",
+        "a_how_to_enable_kinopub1": "Se utilizza un mirror personale per <b>Kinopub</b>, deve concedere all'estensione il permesso di funzionare su quel dominio specifico:",
+        "a_how_to_enable_kinopub2": "Apra <b>Kinopub</b> utilizzando il Suo link personale.",
+        "a_how_to_enable_kinopub3": "Nel menu dell'estensione EasySubs, selezioni <b>Abilita su Kinopub</b>.",
+        "a_how_to_enable_kinopub4": "Confermi il permesso nella finestra popup:",
+        "a_how_to_enable_kinopub5": "Ricarichi la pagina e l'estensione sarà attivata per questo dominio. 🎉",
+        "topic_language_learning_services": "Servizi di Apprendimento Linguistico",
+        "q_how_to_enable_anki": "Come abilitare l'integrazione con Anki",
+        "a_how_to_enable_anki1": "Anki è un popolare programma di flashcard open-source che aiuta gli utenti a memorizzare le informazioni in modo efficiente. È disponibile su Windows, macOS, Linux, iOS e Android. Se non ce l'ha ancora, lo scarichi dal <link>sito ufficiale</link>.",
+        "a_how_to_enable_anki2": "EasySubs si integra con Anki utilizzando l'add-on Anki-Connect.",
+        "a_how_to_enable_anki3": "In Anki, apra la finestra di dialogo <b>Installa Add-on</b> selezionando <b>Strumenti</b> → <b>Add-ons</b> → <b>Ottieni Add-ons</b>.",
+        "a_how_to_enable_anki4": "Inserisca <b>2055492159</b> nella casella di testo etichettata Codice e prema OK.",
+        "a_how_to_enable_anki5": "Riavvii Anki quando richiesto per completare l'installazione di Anki-Connect.",
+        "a_how_to_enable_anki6": "Clicchi sull'icona <b>ES</b> su YouTube o su qualsiasi servizio di streaming supportato.",
+        "a_how_to_enable_anki7": "Selezioni <b>Anki</b> dal menu a tendina dell'opzione <b>Servizio di apprendimento</b>.",
+        "a_how_to_enable_anki8": "Fatto. 🎉 Passi il mouse su una parola nei sottotitoli e ci clicchi sopra per usarla come traduzione. La parola verrà aggiunta ad Anki. Si assicuri che Anki sia in esecuzione in background affinché l'integrazione funzioni.",
+        "a_how_to_enable_anki9": "Le nuove parole verranno aggiunte al dizionario <b>Easysubs</b>. Se questo dizionario non esiste, verrà creato automaticamente."
+    },
+    "ContactPage": {
+        "h1_contact_us": "Ci Contatti",
+        "we_love_to_hear": "Ci piacerebbe sentire la Sua opinione! Che abbia feedback, domande o suggerimenti su EasySubs, siamo qui per aiutarLa. Le Sue intuizioni sono inestimabili per aiutarci a migliorare il nostro servizio."
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "metadata": {
+        "title": "EasySubs – 視聴する動画から言語を学ぶ",
+        "description": "映画やテレビ番組を見ながら語彙力を身につけるための無料ブラウザ拡張機能です。",
+        "keywords": "英語学習, Netflixで学ぶ, 言語学習, 字幕, 語彙力向上, language reactor",
+        "ogTitle": "EasySubs: 言語学習を促進する無料のChrome拡張機能",
+        "ogDescription": "EasySubsで、お気に入りの映画やテレビ番組を見ながら簡単に言語を学びましょう。",
+        "ogImageAlt": "EasySubs",
+        "twitterTitle": "EasySubs – 視聴する動画から言語を学ぶ",
+        "twitterDescription": "映画やテレビ番組を見ながら語彙力を身につけるための無料ブラウザ拡張機能です。"
+    },
+    "HomePage": {
+        "h1_features": "機能",
+        "h1_happy_users": "4000人以上の満足ユーザー",
+        "h1_contributing": "貢献"
+    },
+    "HomePage_HeroSection": {
+        "h1_hero_header": "視聴する動画から言語を学びましょう",
+        "h2_hero_header": "映画やテレビ番組を見ながら語彙力を身につけるための無料ブラウザ拡張機能です。",
+        "hero_feature_subtitles": "カスタマイズ可能な字幕",
+        "hero_feature_translation": "統合された翻訳機能",
+        "hero_feature_opensource": "オープンソースで無料"
+    },
+    "SupportedServices": {
+        "compatible_with": "EasySubsは、YouTube、Netflix（サブスクリプションが必要）、Coursera、Kinopubと互換性があります。さらに多くの動画ストリーミングサービスに対応予定です！"
+    },
+    "HomePage_FeatureTranslation": {
+       "h3_translate_words": "単語や文章を翻訳",
+       "hover_to_translate": "単語の上にマウスを置くと翻訳されます。",
+       "video_paused": "動画の再生は自動的に一時停止されます。",
+       "translate_phrase": "フレーズ全体を翻訳するにはクリックしてください。",
+       "lookup_details": "ケンブリッジ辞典で詳細を調べることができます。"
+    },
+    "HomePage_FeatureWords": {
+        "h3_save_words": "新しい単語を保存",
+        "export_words": "単語を言語学習サービスにエクスポート："
+     },
+    "HomePage_FeatureSubtitles": {
+        "h3_cutomize_subtitles": "字幕をカスタマイズ",
+        "do_you_have": "母国語の.SRTまたは.VTT字幕ファイルをお持ちですか？",
+        "upload_subtitles": "アップロードして、必要に応じて動画と簡単に同期できます。"
+     },
+    "HomePage_MultipleFeatures": {
+        "h2_multiple_features": "言語学習を促進する複数の機能：",
+        "instant_word_pronouncation": "即時の単語発音",
+        "prononcation_examples": "ForvoとYouglishからの発音例",
+        "lookups_in_cambridge": "ケンブリッジ辞典とアーバン辞典での検索",
+        "upload_own_subtitles": "独自の字幕のアップロード",
+        "manual_subtitle_sync": "手動字幕同期",
+        "subtitle_progress_bar": "字幕進行バー",
+        "rewind__by_subtitles": "字幕ごとに動画を巻き戻し",
+        "autopause": "各文の後に自動一時停止",
+        "size_and_position": "字幕のサイズと位置",
+        "os_support": "Windows、Mac、Linuxで動作"
+    },
+    "HomePage_Reviews": {
+        "review1": "ありがとうございます、これは素晴らしいです！とても簡単で、非常に便利です！気に入りました！",
+        "review2": "うまくカスタマイズでき、ユニークな字幕進行バー機能があります - よく機能します。",
+        "review3": "素晴らしい拡張機能です！翻訳ツールが気に入りました。また、全体的なデザインも素晴らしく、オープンソースであることも高評価です！！",
+        "review4": "素晴らしい！言語学習に最適で、他の拡張機能では見つけにくい多くの機能があります！"
+    },
+    "HomePage_Footer": {
+        "logo_motto": "視聴する動画から言語を学ぶ",
+        "menu_features": "機能",
+        "menu_faq": "よくある質問",
+        "menu_contact": "お問い合わせ",
+        "privacy_policy": "プライバシーポリシー",
+        "copyright": "EasySubsは次の者によるオープンソースプロジェクトです："
+     },
+    "Contributing": {
+        "contributing1": "EasySubsはコミュニティの貢献によって成り立つオープンソースプロジェクトです。",
+        "contributing2": "新機能の開発や母国語のサポート改善に参加して、動画を通じた言語学習をさらに向上させるためのこのツールの強化にご協力ください。",
+        "contributing3": "あなたの専門知識がEasySubsを前進させ、世界中の言語学習者にとってより強力で多用途なツールにすることができます。",
+        "get_involved": "参加する"
+    },
+    "OnboardingPage": {
+        "h1_ready": "🎉 もうすぐ準備完了です！",
+        "h1_how_to_start": "始め方",
+        "watch_youtube_video_button": "EasySubsでYouTube動画を見る",
+        "h1_faq": "よくある質問"
+    },
+    "OnboardingPage_HeroSection": {
+        "h2_onboarding_header": "EasySubsアイコンをピン留めして<br></br>すぐにアクセスできるようにしましょう →"
+    },
+    "OnboardingPage_NumberedFeatures": {
+        "hover_to_translate": "単語の上にマウスを置くと翻訳されます。",
+        "video_paused": "動画の再生は自動的に一時停止されます。",
+        "translate_phrase": "フレーズ全体を翻訳するにはクリックしてください。" ,
+        "export_words": "単語を言語学習サービスにエクスポート：",
+        "check_faq": "統合手順については、以下のよくある質問をご確認ください。",
+        "do_you_have": "母国語の.SRTまたは.VTT字幕ファイルをお持ちですか？",
+        "upload_subtitles": "アップロードして、必要に応じて動画と簡単に同期できます。"
+    },
+    "PrivacyPolicyPage": {
+        "h1_privacy_policy": "プライバシーポリシー"
+    },
+    "FaqPage": {
+        "h1_faq": "よくある質問",
+        "cant_find_contact": "お探しの回答が見つかりませんか？私たちの<link>Telegramチャット</link>にお問い合わせください。"
+    },
+    "FaqSection": {
+        "topic_bug_reports": "バグ報告",
+        "cant_find_contact": "お探しの回答が見つかりませんか？私たちの<link>Telegramチャット</link>にお問い合わせください。",
+        "q_how_to_report": "バグを報告したり新機能を提案したりするには",
+        "a_how_to_report": "私たちの<link>Telegramチャット</link>にメッセージをお送りください。できる限りサポートさせていただきます。",
+        "topic_streaming_services": "ストリーミングサービス",
+        "q_how_to_enable_kinopub": "Kinopubのカスタムドメインでのさせる方法",
+        "a_how_to_enable_kinopub1": "<b>Kinopub</b>の個人ミラーを使用している場合、その特定のドメインで拡張機能を実行する権限を付与する必要があります：",
+        "a_how_to_enable_kinopub2": "個人リンクを使用して<b>Kinopub</b>を開きます。",
+        "a_how_to_enable_kinopub3": "EasySubs拡張機能メニューで、<b>KinopubでEasySubsを有効にする</b>を選択します。",
+        "a_how_to_enable_kinopub4": "ポップアップウィンドウで権限を確認します：",
+        "a_how_to_enable_kinopub5": "ページをリロードすると、このドメインで拡張機能が有効になります。🎉",
+        "topic_language_learning_services": "言語学習サービス",
+        "q_how_to_enable_anki": "Anki統合を有効にする方法",
+        "a_how_to_enable_anki1": "Ankiは、ユーザーが情報を効率的に記憶するのを助ける人気のあるオープンソースのフラッシュカードプログラムです。Windows、macOS、Linux、iOS、Androidで利用可能です。まだお持ちでない場合は、<link>公式ウェブサイト</link>からダウンロードしてください。", 
+        "a_how_to_enable_anki2": "EasySubsはAnki-Connectアドオンを使用してAnkiと統合します。",
+        "a_how_to_enable_anki3": "Ankiで、<b>ツール</b> → <b>アドオン</b> → <b>アドオンを取得</b>を選択して<b>アドオンのインストール</b>ダイアログを開きます。",
+        "a_how_to_enable_anki4": "コードと表示されたテキストボックスに<b>2055492159</b>を入力し、OKを押します。",
+        "a_how_to_enable_anki5": "指示に従ってAnkiを再起動し、Anki-Connectのインストールを完了します。",
+        "a_how_to_enable_anki6": "YouTubeまたはサポートされているストリーミングサービスで<b>ES</b>アイコンをクリックします。",
+        "a_how_to_enable_anki7": "<b>学習サービス</b>オプションのドロップダウンメニューから<b>Anki</b>を選択します。",
+        "a_how_to_enable_anki8": "完了です。🎉 字幕の単語の上にマウスを置き、クリックして翻訳として使用します。単語がAnkiに追加されます。統合が機能するためには、Ankiがバックグラウンドで実行されていることを確認してください。",
+        "a_how_to_enable_anki9": "新しい単語は<b>Easysubs</b>辞書に追加されます。この辞書が存在しない場合は自動的に作成されます。"
+    },
+    "ContactPage": {
+        "h1_contact_us": "お問い合わせ",
+        "we_love_to_hear": "皆様のご意見をお聞かせください！EasySubsに関するフィードバック、質問、提案がございましたら、お気軽にお問い合わせください。皆様の洞察は、サービス向上に大変貴重です。"
+    }
+}

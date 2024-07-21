@@ -121,5 +121,10 @@
         "a_how_to_enable_anki7": "Select <b>Anki</b> from the drop-down menu of the <b>Learning service</b> option.",
         "a_how_to_enable_anki8": "Done. 🎉 Hover over a word in the subtitles and click on it to use it as a translation. The word will be added to Anki. Ensure Anki is running in the background for the integration to work.",
         "a_how_to_enable_anki9": "New words will be added to the <b>Easysubs</b> dictionary. If this dictionary doesn’t exist, it will be created automatically."
+    },
+    "ContactPage": {
+        "h1_contact_us": "Contact Us",
+        "we_love_to_hear": "We’d love to hear from you! Whether you have feedback, questions, or suggestions about EasySubs, we’re here to help. Your insights are invaluable in helping us improve our service."
     }
+
 }

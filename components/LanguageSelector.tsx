@@ -1,4 +1,3 @@
-'use client'
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
@@ -14,20 +13,18 @@ const LanguageSelector: React.FC<LanguageSelectorType> = ({
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
-  // Extract the current language from the pathname
   const currentLanguage = pathname.split('/')[1] || defaultLanguage;
 
   const toggleDropdown = () => setIsOpen(!isOpen);
 
   const getLanguageUrl = (lang: string) => {
     const path = pathname.split('/').filter(segment => segment !== '');
-    
-    // Always remove the first segment (current language code)
     path.shift();
-
-    // Always include the language code, even for the default language
     return `/${lang}/${path.join('/')}`;
   };
+
+  const languageEntries = Object.entries(languages);
+  const midpoint = Math.ceil(languageEntries.length / 2);
 
   return (
     <div
@@ -51,20 +48,37 @@ const LanguageSelector: React.FC<LanguageSelectorType> = ({
         />
       </div>
       {isOpen && (
-        <div className="absolute top-full left-0 w-full bg-background-light border border-solid border-gray-300 rounded-8xs z-50">
-          {Object.entries(languages).map(([code, name]) => (
-            <Link
-              key={code}
-              href={getLanguageUrl(code)}
-              className={`block px-3 py-2 hover:bg-neutral-100 ${
-                code === currentLanguage ? "font-bold" : ""
-              }`}
-              style={{ color: 'inherit', textDecoration: 'none' }}
-              onClick={() => setIsOpen(false)}
-            >
-              {name}
-            </Link>
-          ))}
+        <div className="absolute top-full right-0 w-56 bg-background-light border border-solid border-gray-300 rounded-8xs z-50 flex shadow-md">
+          <div className="w-1/2 pr-1">
+            {languageEntries.slice(0, midpoint).map(([code, name]) => (
+              <Link
+                key={code}
+                href={getLanguageUrl(code)}
+                className={`block px-3 py-2 hover:bg-neutral-100 text-sm ${
+                  code === currentLanguage ? "font-bold" : ""
+                }`}
+                style={{ color: 'inherit', textDecoration: 'none' }}
+                onClick={() => setIsOpen(false)}
+              >
+                {name}
+              </Link>
+            ))}
+          </div>
+          <div className="w-1/2 pl-1">
+            {languageEntries.slice(midpoint).map(([code, name]) => (
+              <Link
+                key={code}
+                href={getLanguageUrl(code)}
+                className={`block px-3 py-2 hover:bg-neutral-100 text-sm ${
+                  code === currentLanguage ? "font-bold" : ""
+                }`}
+                style={{ color: 'inherit', textDecoration: 'none' }}
+                onClick={() => setIsOpen(false)}
+              >
+                {name}
+              </Link>
+            ))}
+          </div>
         </div>
       )}
     </div>

@@ -50,11 +50,9 @@ const FooterSection: NextPage<FooterSectionType> = ({
             <h3 className="m-0 relative text-inherit font-bold font-inherit inline-block min-w-[41px] mq550:text-3xl mq550:text-center">
               <Link href="/faq" className="[text-decoration:none] text-inherit">{t('menu_faq')}</Link>
             </h3>
-            {/* 
             <h3 className="m-0 relative text-inherit uppercase font-bold font-inherit inline-block min-w-[93px] mq550:text-3xl mq550:text-center">
               <Link href="/contact" className="[text-decoration:none] text-inherit">{t('menu_contact')}</Link>
             </h3>
-            */}
           </div>
         </div>
         <div className="w-[1010px] flex flex-row items-start justify-center py-0 px-10 box-border gap-[20px] max-w-full">
