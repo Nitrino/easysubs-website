@@ -1,8 +1,8 @@
-const { languages, defaultLanguage } = require('./appSettings');
+const { languages, defaultLanguage } = require("./appSettings");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: "export",
   trailingSlash: true,
   experimental: {
     appDir: true,
@@ -11,4 +11,4 @@ const nextConfig = {
 
 module.exports = nextConfig;
 
-console.log('next.config.js loaded', { languages, defaultLanguage });
+console.debug("next.config.js loaded", { languages, defaultLanguage });
